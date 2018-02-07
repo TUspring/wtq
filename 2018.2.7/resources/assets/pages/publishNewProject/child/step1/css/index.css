@@ -1,0 +1,119 @@
+/*new-strategy content样式*/
+ .content-top {
+     height:80px;
+     line-height:80px;
+    font-size:16px;
+    font-weight:bold;
+    color:#151515;
+    border-bottom:1px solid #D3D3D3;
+    margin:0 auto;
+     padding:0 10px;
+}
+
+.upload-content {
+    position:relative;
+    height:120px;
+    margin-top:50px;
+}
+.upload-content span {
+    position:absolute;
+    top:54px;
+    color:#999999;
+    font-size: 14px;
+}
+
+
+.upload_img-content {
+    position:relative;
+    margin-left:130px;
+    width:500px;
+    height:120px;
+}
+.upload_img-content .img-content {
+
+    width:120px;
+    height:120px;
+    text-align:center;
+    vertical-align:middle;
+    border-radius:50%;
+    background:#EEEEEE;
+    padding-top:20px;
+    cursor:pointer;
+}
+.upload_img-content .img-content i {
+    color:#D4D4D4;
+    font-size:40px;
+}
+.upload_img-content .img-content p {
+    line-height:0;
+    font-size:10px;
+    color:#999999;
+}
+.upload_img-content img {
+    width:120px;
+    height:120px;
+    border-radius:50%;
+}
+.upload_img-content b {
+    position:absolute;
+    top:100px;
+    left:100px;
+    color:#363636;
+    font-size:12px;
+    padding-left:20px;
+}
+
+
+
+
+.item_content {
+    width:800px;
+    margin-top:30px;
+}
+.title_content {
+    width:100px;
+    float:left;
+    height:50px;
+    line-height:50px;
+}
+.title_content span {
+    font-size: 14px;
+    color: rgb( 153, 153, 153 );
+}
+.value_content {
+    float:left;
+    height:50px;
+    line-height:50px;
+    margin-left:70px;
+}
+.value_content input {
+    width: 319px;
+    height: 49px;
+    border-radius: 6px;
+    padding-left:10px;
+    border:1px solid rgb( 212, 212, 212 );
+}
+.value_content textarea {
+    width: 500px;
+    height: 100px;
+    line-height:20px;
+    border-radius: 6px;
+    padding:5px 10px;
+    border:1px solid rgb( 212, 212, 212 );
+}
+.item_content .name_warning {
+    color:red;
+}
+
+#next {
+    width:140px;
+    height:40px;
+    line-height:40px;
+    float:left;
+    text-align:center;
+    background:#FFA013;
+    border-radius:5px;
+    color:#fff;
+    cursor:pointer;
+    margin-top:80px;
+}

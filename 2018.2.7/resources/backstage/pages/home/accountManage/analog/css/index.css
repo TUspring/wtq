@@ -1,0 +1,103 @@
+.examine-top {
+    width: 100%;
+    height: 34px;
+    margin-top:20px;
+    margin-bottom: 10px;
+    margin-left:10px;
+}
+
+.examine-top .leftInfo {
+    float: left;
+    width: 140px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    box-shadow: 0px 0px 3px 0px #CCCCCC;
+    background-color: #fff;
+}
+
+.leftInfo .number {
+    color: #ffa114;
+}
+.importAccount_btn {
+    width: 140px;
+    height: 34px;
+    line-height:34px;
+    border-radius:6px;
+    background:#ffa114;
+    color:#fff;
+    float:left;
+    text-align:center;
+    margin-left:30px;
+    cursor:pointer;
+    font-size: 14px;
+
+}
+.rightInfo {
+    float: right;
+    height: 34px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightInfo-r {
+    margin-left: 50px;
+}
+
+.rightInfo-r input {
+    width: 174px;
+    height: 34px;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+.rightInfo-r span {
+    width: 70px;
+    height: 34px;
+    background-color: #ffa114;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 34px;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+
+.list_box {
+    margin-left:10px;
+    margin-right:10px;
+}
+table {
+    border:1px solid #D4D4D4;
+    border-collapse:collapse;
+}
+.list_box  th {
+    height:40px;
+    color:#666666;
+    font-size:14px;
+    background:#F5F7F9;
+}
+.list_box  td {
+    height:50px;
+    text-align:center;
+}
+.eye {
+    cursor:pointer;
+}
+.list_box  td span {
+    padding:3px 8px;
+    border-radius:6px;
+    margin:0 5px;
+    cursor:pointer;
+}
+.list_box .allot {
+    border:1px solid #FFA400;
+    color:#FFA400
+}
+

@@ -1,0 +1,99 @@
+.offShelf-publish {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.1);
+}
+
+.offShelf-publish-container {
+    width: 500px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 0px 0px 30px 0px;
+}
+.offShelf-publish-container .title{
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #333333;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.ct-2{
+    width: 100%;
+}
+.ct-2 p{
+    font-size: 16px;
+    line-height: 36px;
+}
+.ct-2-tx{
+    margin: 50px;
+}
+.offShelf-edit{
+    width: 500px;
+    height: 150px;
+    padding-left: 100px;
+}
+.offShelf-edit span{
+    font-size: 16px;
+    width: 80px;
+    float: left;
+    display: inline-block;
+}
+.offShelf-edit textarea{
+    width: 240px;
+    height: 150px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 14px;
+    padding: 5px;
+    float: left;
+    resize:none
+}
+
+.project-name{
+    width: 500px;
+    padding: 0px 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.project-name p{
+    line-height: 24px;
+    font-size: 14px;
+    color: #333;
+}
+
+.offShelf-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.offShelf-btn span {
+    width: 88px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    border: 1px solid #CCCCCC;
+}
+.offShelf-btn span:hover{
+    color: #ffa114;
+    border: 1px solid #ffa114;
+}
+
+.offShelf-btn .confirm {
+    margin-left: 120px;
+}

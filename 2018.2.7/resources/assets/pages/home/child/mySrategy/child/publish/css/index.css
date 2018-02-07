@@ -1,0 +1,74 @@
+/*myStrategy-publish content样式*/
+#min {
+    margin-top:20px;
+}
+.user-publish {
+    width:970px;
+    height:213px;
+    border-radius:5px;
+    background:#fff;
+    margin-top:20px;
+}
+.user-publish-msg {
+    position:relative;
+    width:900px;
+    height:79px; 
+    margin:0 auto;
+    border-bottom:1px solid #EDEDED;
+}
+.user-publish-msg img { 
+    position:absolute;
+    left:30px;
+    top:15px;
+    width:50px;
+    height:50px;
+    border-radius:50px
+}
+.user-publish-msg .user_name {
+    position:absolute;
+    left:100px;
+    top:15px;
+    line-height:5px;
+}
+.user_name p {
+    margin-bottom:20px;
+    margin-top:10px;
+}
+.user_name i {
+    color:#FDBF5D;
+    margin-bottom:20px;
+}
+.publish_time {
+    position:absolute;
+    right:30px;
+    top:30px;
+    color:#B4B4B4;
+}
+.user-publish-number {
+    margin-top:20px;
+    /*border:1px solid darkgreen;*/
+}
+.user-publish-number table {
+    width:900px;
+    height:90px;
+    margin:0 auto;
+    border-collapse:collapse;
+}
+.user-publish-number table tr th {
+    width:20%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:pre;
+    /*padding-left:40px;*/
+}
+.user-publish-number table tr:first-child th:nth-child(1) {
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.user-publish-number table tr:first-child th:nth-last-child(1){
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.user-publish-number table tr:nth-child(odd){
+    background:#F5F5F5;
+}

@@ -1,0 +1,157 @@
+/*new-strategy content样式*/
+ .content-top {
+     height:80px;
+     line-height:80px;
+    font-size:16px;
+    font-weight:bold;
+    color:#151515;
+    border-bottom:1px solid #D3D3D3;
+    margin:0 auto;
+     padding:0 10px;
+}
+
+.upload-content {
+    position:relative;
+    height:120px;
+    margin-top:50px;
+}
+.upload-content span {
+    position:absolute;
+    top:54px;
+    color:#999999;
+    font-size: 14px;
+}
+
+
+.upload_img-content {
+    position:relative;
+    margin-left:130px;
+    width:500px;
+    height:120px;
+}
+.upload_img-content .img-content {
+
+    width:120px;
+    height:120px;
+    text-align:center;
+    vertical-align:middle;
+    border-radius:50%;
+    background:#EEEEEE;
+    padding-top:20px;
+    cursor:pointer;
+}
+.upload_img-content .img-content i {
+    color:#D4D4D4;
+    font-size:40px;
+}
+.upload_img-content .img-content p {
+    line-height:0;
+    font-size:10px;
+    color:#999999;
+}
+.upload_img-content img {
+    width:120px;
+    height:120px;
+    border-radius:50%;
+}
+.upload_img-content b {
+    position:absolute;
+    top:100px;
+    left:100px;
+    color:#363636;
+    font-size:12px;
+    padding-left:20px;
+}
+
+
+
+.srategy-msgInput {
+    float:left;
+    margin-top:40px;
+}
+.srategy-msgInput ul {
+    padding:0;
+    line-height:20px;
+}
+.srategy-msgInput ul  li {
+    list-style:none;
+    margin-bottom:20px;
+}
+
+
+#strategyName {
+    /*border:1px solid red;*/
+}
+#strategyName small{
+    color:#999999;
+    font-size: 14px;
+}
+#strategyName span {
+    font-size:12px;
+    font-weight:bold;
+}
+#strategyName #name_warning {
+    line-height:0;
+    color:red;
+    margin-left:140px;
+}
+#strategyName input {
+    width:300px;
+    height:50px;
+    font-size:14px;
+    padding-left:20px;
+    margin-left:80px;
+    border:1px solid #999999;
+    border-radius:5px;
+}
+#strategyName input:focus {
+    outline:none;
+}
+
+
+#strategyDescribe {
+    position:relative;
+    /*border:1px solid red;*/
+}
+#strategyDescribe span {
+    font-size:12px;
+    font-weight:bold;
+}
+#strategyDescribe small{
+    position:absolute;
+    top:40px;
+    color:#999999;
+    font-size: 14px;
+}
+#strategyDescribe #describe_warning {
+    line-height:0;
+    color:red;
+    margin-left:140px;
+}
+#strategyDescribe textarea {
+    width:300px;
+    height:230px;
+    line-height:20px;
+    font-size:12px;
+    margin-top:20px;
+    padding:10px 20px;
+    margin-left:140px;
+}
+#strategyDescribe textarea:focus {
+    outline:none;
+}
+.clear {
+    clear:both;
+}
+#next {
+    width:140px;
+    height:40px;
+    line-height:40px;
+    float:left;
+    text-align:center;
+    background:#FFA013;
+    border-radius:5px;
+    color:#fff;
+    cursor:pointer;
+    margin-top:10px;
+}

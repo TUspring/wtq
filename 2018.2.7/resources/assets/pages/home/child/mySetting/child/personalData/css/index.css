@@ -1,0 +1,444 @@
+/*******用户-- 个人资料*****/
+.personal_data_content{
+    width: 970px;
+    border-radius: 5px;
+    padding:30px;
+    background-color: #ffffff;
+}
+.personal_data_content .list_box{
+    width: 910px;
+    margin-bottom: 10px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/*基本资料样式*/
+.basic_title{
+    width: 910px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding-left: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.basic_title span{
+    font-weight: bold;
+}
+.font_icon{
+    margin-left: 5px;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #999999;
+}
+.basic_details{
+    width: 910px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #EEEEEE;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.details_content{
+    width: 800px;
+    margin:30px auto;
+}
+
+.details_content .details_content_left{
+    width: 498px;
+    height: 275px;
+    float: left;
+}
+
+
+.details_content .details_content_left .details_left_name{
+    width: 498px;
+    height: 40px;
+    line-height: 40px;
+}
+.details_content_left span{
+    font-size: 14px;
+    color: #aaaaaa;
+}
+.details_content_left .details_left_name .name_input{
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: right;
+}
+
+.details_content_left .details_left_sex{
+    width: 498px;
+    height: 40px;
+    line-height: 40px;
+    color: #aaaaaa;
+    margin:18px 0px;
+}
+
+.details_content_left .details_left_radio{
+    width: 400px;
+    height: 40px;
+    float: right;
+}
+.details_content_left .details_left_birthday{
+    width: 498px;
+    height: 40px;
+    line-height: 40px;
+}
+.details_content_left .details_left_date{
+    width: 400px;
+    height: 40px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details_content_left .details_left_city{
+    width: 498px;
+    height: 40px;
+    line-height: 40px;
+    margin:18px 0px;
+}
+.details_content_left .details_left_area{
+    width: 400px;
+    height: 40px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details_content_left .personal_data_btn{
+    width: 498px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FFA114;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+.details_content .details_content_right{
+    width: 120px;
+    float: right;
+    height: 274px;
+    text-align: center;
+}
+
+.details_content_right .upload_img_btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #eeeeee;
+    margin-bottom: 5px;
+    color: #aaaaaa;
+    cursor: pointer;
+}
+.details_content_right .upload_img_btn:hover{
+    background-color: #ffa114;
+    color: #FFFFFF;
+}
+.details_content_right span{
+    color: #CCCCCC;
+}
+
+
+/*手机号码样式*/
+.basic_data_content{
+    width: 910px;
+    padding-top: 20px;
+}
+.basic_data_content .number_content{
+    width: 810px;
+    height: 40px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.basic_data_content .number_content li{
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
+.basic_data_content .number_content li span:nth-child(1){
+    color: #aaaaaa;
+}
+.basic_data_content .number_content li:nth-last-child(1){
+    text-align: right;
+}
+.basic_data_content .number_content .number{
+    margin-left: 40px;
+}
+.replace_number_btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: #aaaaaa;
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+
+
+.changeNumber_container{
+    width: 910px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+
+.changeNumber_container .changeNumber_content:nth-child(1){
+    padding-top: 0px;
+}
+.changeNumber_container .changeNumber_content{
+    width: 500px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.changeTel_btn{
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #FFA114;
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.changeNumber_content .current_number{
+    border: none;
+    color: #333333;
+    font-size: 14px;
+    width: 400px;
+}
+.changeNumber_content span{
+    font-size: 14px;
+    color: #999999;
+}
+.changeNumber_content input{
+    width: 400px;
+    height: 40px;
+    border:1px solid #d4d4d4;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+
+
+.verificationCode_content{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.verificationCode_content span{
+    font-size: 14px;
+    color: #999999;
+}
+.verificationCode_content .code{
+    width: 270px;
+    height: 40px;
+    border:1px solid #d4d4d4;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.sendCode{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #FFA114;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #FFA114;
+    cursor: pointer;
+}
+
+
+
+/*修改密码样式*/
+.modify_psw_container{
+    width: 910px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+
+.modify_psw_container span{
+    color: #aaaaaa;
+}
+.modify_psw_container .cur{
+    position: relative;
+}
+.modify_psw_container .forget_psw{
+    position: absolute;
+    font-weight: bold;
+    cursor: pointer;
+    top: 16px;
+    color: #333333;
+    right: -70px;
+}
+
+.modify_psw_container .modify_psw_content:nth-child(1){
+    padding-top: 0px;
+}
+.modify_psw_container .modify_psw_content{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new_psw::-webkit-input-placeholder{
+    color: #cccccc;
+}
+.confirm_modify_btn{
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #FFA114;
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.modify_psw_container .repeatPsw{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.modify_psw_content input{
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    border:1px solid #d4d4d4;
+    border-radius: 6px;
+}
+
+/*邮箱账号样式*/
+.basic_data_content .email_content{
+    width: 810px;
+    height: 40px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.basic_data_content .email_content li{
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
+.basic_data_content .email_content li span:nth-child(1){
+    color: #aaaaaa;
+}
+.basic_data_content .email_content li:nth-last-child(1){
+    text-align: right;
+}
+.basic_data_content .email_content .email{
+    margin-left: 40px;
+}
+.replace_email_btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: #aaaaaa;
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+
+
+.changeEmail_container{
+    width: 910px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+
+.changeEmail_container .changeEmail_content:nth-child(1){
+    padding-top: 0px;
+}
+.changeEmail_container .changeEmail_content{
+    width: 500px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.changeEmail_btn{
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #FFA114;
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.changeEmail_content .current_email{
+    border: none;
+    color: #333333;
+    font-size: 14px;
+    width: 400px;
+}
+.changeEmail_content span{
+    font-size: 14px;
+    color: #999999;
+}
+.changeEmail_content input{
+    width: 400px;
+    height: 40px;
+    border:1px solid #d4d4d4;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+
+
+.verificationCode_content{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.verificationCode_content span{
+    font-size: 14px;
+    color: #999999;
+}
+.verificationCode_content .code{
+    width: 270px;
+    height: 40px;
+    border:1px solid #d4d4d4;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.sendCode{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #FFA114;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #FFA114;
+    cursor: pointer;
+}

@@ -1,0 +1,106 @@
+/*myStrategy-examine 样式*/
+#min {
+    margin-top:20px;
+}
+.user-examine-msg {
+    position:relative;
+    width:900px;
+    height:79px;
+    margin:0 auto;
+    border-bottom:1px solid#EDEDED;
+}
+.reject_reason{
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 14px;
+    color: #333333;
+    line-height: 24px;
+    margin-top: 6px;
+}
+.user-examine-msg img {
+    position:absolute;
+    left:30px;
+    top:15px;
+    width:50px;
+    height:50px;
+    border-radius:50px
+}
+.user-examine-msg .user_name {
+    height: 79px;
+    line-height: 79px;
+    margin-left: 98px;
+}
+
+.user_name i {
+    color:#FDBF5D;
+    margin-bottom:20px;
+}
+.examine_time {
+    position:absolute;
+    right:30px;
+    top:30px;
+    color:#B4B4B4;
+}
+.user-examine {
+    width:970px;
+    border-radius:6px;
+    background:#fff;
+    margin-top:20px;
+    padding-bottom: 20px;
+    /*border:1px solid red;*/
+}
+.user-examine-number {
+    margin-top:20px;
+    /*border:1px solid darkgreen;*/
+}
+.user-examine-number table {
+    width:900px;
+    height:90px;
+    margin:0 auto;
+    border-collapse:collapse;
+}
+.user-examine-number table tr th {
+    width:20%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:pre;
+    /*padding-left:40px;*/
+}
+.user-examine-number table tr:first-child th:nth-child(1) {
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.user-examine-number table tr:first-child th:nth-child(5){
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.user-examine-number table tr:nth-child(odd){
+    background:#F5F5F5;
+}
+.user-examine-number .examine {
+    color:#0071FC;
+    border:1px solid #0071FC;
+    padding:5px 10px;
+    margin-right:20px;
+    border-radius:5px;
+}
+.user-examine-number .publish {
+    color:#FFA113;
+    border:1px solid #FFA113;
+    padding:5px 10px;
+    margin-right:20px;
+    border-radius:5px;
+}
+.user-examine-number .modify {
+    color:#FFA113;
+    border:1px solid #FFA113;
+    padding:5px 10px;
+    border-radius:5px;
+}
+.user-examine-number .delete {
+    color:#999999;
+    background:#EFEFEF;
+    padding:5px 10px;
+    border-radius:5px;
+    cursor:pointer;
+}

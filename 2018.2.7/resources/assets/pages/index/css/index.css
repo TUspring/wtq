@@ -1,0 +1,915 @@
+/*首页banner*/
+.home-banner {
+    width: 100%;
+    height: 600px;
+    background: url("../images/index_banner_bg.jpg") center center no-repeat;
+    overflow: hidden;
+}
+.banner-container {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+}
+
+.banner-left-content {
+    width: 550px;
+    padding-top: 110px;
+    margin-right:50px;
+}
+
+.banner-left-content p {
+    font-size: 60px;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin-top: 50px;
+    white-space:nowrap;
+}
+
+.banner-left-content .banner-establish-account {
+    display: block;
+    width: 520px;
+    height: 65px;
+    line-height: 65px;
+    z-index: 1017;
+    text-align: center;
+    /*border-radius: 30px;*/
+    font-size: 19.991px;
+    margin-top: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: rgb(60, 129, 255);
+}
+
+.banner-left-content .banner-establish-account:hover {
+    background-color: rgba(60, 129, 255, .7);
+}
+
+.banner-right-content {
+    position: absolute;
+    width: 750px;
+    top: 100px;
+    right: -100px;
+}
+
+.banner-right-container {
+    width: 750px;
+    height: 400px;
+    background-image: url("../images/banner_right_bg.png");
+    position: relative;
+}
+
+.banner-right-glass {
+    bottom: -3px;
+    left: 128px;
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    background: url("../images/banner_right_glass.png") no-repeat;
+}
+
+.banner-right-circle .banner-right-circle1 {
+    top: 100px;
+    left: 180px;
+    width: 75px;
+    height: 90px;
+    position: absolute;
+    background: url("../images/banner_right_circle1.png") no-repeat;
+}
+
+.banner-right-circle .banner-right-circle2 {
+    top: 40px;
+    left: 275px;
+    width: 90px;
+    height: 110px;
+    position: absolute;
+    background: url("../images/banner_right_circle2.png") no-repeat;
+}
+
+.banner-right-circle .banner-right-circle3 {
+    top: 15px;
+    right: 230px;
+    width: 100px;
+    height: 125px;
+    position: absolute;
+    background: url("../images/banner_right_circle3.png") no-repeat;
+}
+
+.banner-right-data {
+    top: 112px;
+    right: 50px;
+    width: 244px;
+    height: 230px;
+    position: absolute;
+    background: url("../images/banner_right_data.png") no-repeat;
+}
+
+.banner-right-data2 {
+    top: 170px;
+    left: 75px;
+    width: 144px;
+    height: 132px;
+    position: absolute;
+    background: url("../images/banner_right_data2.png") no-repeat;
+}
+
+.banner-right-compute {
+    bottom: 0px;
+    left: 50%;
+    width: 200px;
+    height: 120px;
+    margin-left: -100px;
+    position: absolute;
+    background: url("../images/banner_right_compute.png") no-repeat;
+}
+
+.banner-right-flower {
+    bottom: -3px;
+    right: 110px;
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    background: url("../images/banner_right_flower.png") no-repeat;
+}
+
+.banner-right-user {
+    bottom: 105px;
+    right: 40%;
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+    position: absolute;
+    background: url("../images/banner_right_user.png") no-repeat;
+}
+
+.banner-right-shadow {
+    bottom: 0px;
+    left: 30%;
+    width: 80px;
+    height: 70px;
+    margin-left: -10px;
+    position: absolute;
+    background: url("../images/banner_right_shadow.png") no-repeat;
+}
+
+.banner-right-calculator {
+    bottom: 0px;
+    left: 40%;
+    width: 80px;
+    height: 70px;
+    margin-left: -42px;
+    position: absolute;
+    background: url("../images/banner_right_calculator.png") no-repeat;
+    z-index: 2;
+}
+
+.banner-right-bottom {
+    width: 750px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.banner-right-desk1 {
+    top: 0px;
+    left: 75px;
+    width: 604px;
+    height: 32px;
+    position: absolute;
+    background-image: url("../images/banner_right_desk1.png");
+}
+
+.banner-right-desk2 {
+    width: 520px;
+    height: 40px;
+    margin-top: 10px;
+    background: url("../images/banner_right_desk2.png") no-repeat;
+}
+
+.details-category {
+    width: 100%;
+    height: 180px;
+    padding: 20px 0px;
+    background-color: #f5f5f5;
+}
+
+.details-category-content {
+    width: 1200px;
+    height: 140px;
+    margin: auto;
+}
+
+.details-category-content li {
+    width: 270px;
+    height: 140px;
+    float: left;
+    margin-right: 40px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.details-category-content li:hover {
+    box-shadow: 0px 3px 4px 3px rgba( 212, 212, 212,.8 );
+}
+.details-category-content li:nth-last-child(1) {
+    margin-right: 0px;
+}
+.details-category-content .picture {
+    width: 270px;
+    display: flex;
+    justify-content: center;
+}
+
+.details-category-content li img {
+    width: 70px;
+    height: 60px;
+    display: block;
+    margin-top: 20px;
+}
+
+.details-category-content li p {
+    width: 270px;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 18px;
+    color: #161616;
+    font-weight: 500;
+}
+
+.profit-category {
+    width: 100%;
+    height: 570px;
+    background-color: #fff;
+}
+
+.profit-category-content {
+    width: 1200px;
+    height: 570px;
+    margin: auto;
+}
+
+.profit-category-content li {
+    width: 400px;
+    height: 570px;
+    float: left;
+}
+
+.profit-category-content li .picture {
+    width: 400px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    position: relative;
+}
+
+.profit-category-content li .picture3 {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    position: relative;
+}
+
+.profit-category-content li .picture3 img {
+    width: 250px;
+    height: 150px;
+
+}
+
+.cube_shadow_pic1 {
+    width: 250px;
+    height: 120px;
+    top: -24px;
+    left: 75px;
+    background: url("../images/cube_shadow_pic1.png") no-repeat;
+    /*animation: shadow_pic 2s infinite ease;*/
+    position: absolute;
+}
+
+@keyframes shadow_pic {
+    0% {
+        transform: translateX(0px) translateY(-24px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(0) scaleY(0) scaleZ(0)
+    }
+    25% {
+        transform: translateX(0px) translateY(-50px) translateZ(0px) rotateX(0deg) rotateY(49deg) rotateZ(0deg) scaleX(0.8) scaleY(2) scaleZ(0)
+    }
+    50% {
+        transform: translateX(0px) translateY(-50px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(20deg) scaleX(1.2) scaleY(4) scaleZ(0)
+    }
+    75% {
+        transform: translateX(0px) translateY(-50px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(2) scaleY(0) scaleZ(0)
+    }
+    100% {
+        transform: translateX(0px) translateY(24px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(0) scaleY(0) scaleZ(0)
+    }
+}
+
+.cube_shadow_pic2 {
+    width: 250px;
+    height: 120px;
+    top: -24px;
+    left: 70px;
+    background: url("../images/cube_shadow_pic2.png") no-repeat;
+    position: absolute;
+}
+
+.cube_shadow_pic3 {
+    width: 250px;
+    height: 150px;
+    top: -24px;
+    left: 75px;
+    background: url("../images/cube_shadow_pic3.png") no-repeat;
+    position: absolute;
+}
+
+.profit-category-content li .picture img {
+    width: 250px;
+    height: 120px;
+}
+
+.profit-category-content li p {
+    width: 400px;
+    text-align: center;
+    font-size: 18px;
+    color: #999999;
+}
+
+.profit-category-content li .number {
+    font-size: 38px;
+    color: #161616;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.follow-investment {
+    width: 100%;
+    padding-bottom: 110px;
+}
+
+.follow-investment .follow-investment-top {
+    width: 1200px;
+    height: 264px;
+    padding-top: 100px;
+    background-color: #f5f5f5;
+    margin: auto;
+}
+
+.follow-investment .follow-investment-top p {
+    width: 1200px;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+}
+
+.follow-investment .follow-investment-top .title {
+    font-size: 32px;
+    color: #161616;
+    margin-bottom: 20px;
+}
+
+.follow-investment .follow-investment-content {
+    width: 1200px;
+    height: 200px;
+    padding-right: 30px;
+    margin: auto;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+}
+
+.follow-investment .follow-investment-content:nth-last-child(1) {
+    margin-bottom: 0px;
+
+}
+
+.follow-investment-left {
+    float: left;
+    width: 180px;
+}
+
+.follow-investment-left img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-top: 40px;
+    display: block;
+    border: 1px solid #EEEEEE;
+    border: 1px solid #DADAD9;
+    cursor: pointer;
+}
+
+.follow-investment-left p {
+    width: 180px;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 20px;
+    color: #333333;
+    padding-left: 30px;
+}
+
+.follow-investment .follow-investment-right {
+    margin-top: 50px;
+    float: right;
+}
+
+.follow-investment .follow-investment-right li {
+    width: 198px;
+    height: 100px;
+    float: left;
+    border-right: 1px solid #EEEEEE;
+}
+
+.follow-investment .follow-investment-right li:nth-last-child(1) {
+    border-right: 0px;
+}
+
+.follow-investment-right ul li p {
+    width: 198px;
+    text-align: center;
+    font-size: 30px;
+    color: #333333;
+    line-height: 50px;
+}
+
+.follow-investment-right .individual {
+    color: #09af48;
+}
+
+.follow-investment-right ul li .genre {
+    font-size: 20px;
+    color: #999999;
+}
+
+.control-management {
+    width: 100%;
+    height: 715px;
+    background-color: #fff;
+}
+
+.control-management-container {
+    width: 1200px;
+    margin: auto;
+    height: 715px;
+}
+
+.control-management-top {
+    width: 900px;
+    height: 265px;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.control-management-top p {
+    font-size: 16px;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.control-management-top .title {
+    font-size: 32px;
+    color: #161616;
+}
+
+.control-management-bottom {
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.control-management-bottom .dotted-circle1 {
+    width: 760px;
+    height: 760px;
+    top: 70px;
+    left: 50%;
+    margin-left: -380px;
+    position: absolute;
+    border-width: 2px;
+    border-color: rgb(212, 212, 212);
+    border-style: dashed;
+    opacity: 0.302;
+    border-radius: 50%;
+}
+
+.control-management-bottom .dotted-circle2 {
+    width: 620px;
+    height: 620px;
+    top: 140px;
+    left: 50%;
+    margin-left: -310px;
+    position: absolute;
+    border-width: 2px;
+    border-color: rgb(212, 212, 212);
+    border-style: dashed;
+    opacity: 0.302;
+    border-radius: 50%;
+}
+
+.control-management-bottom .dotted-circle3 {
+    width: 480px;
+    height: 480px;
+    top: 210px;
+    left: 50%;
+    margin-left: -240px;
+    position: absolute;
+    border-width: 2px;
+    border-color: rgb(212, 212, 212);
+    border-style: dashed;
+    opacity: 0.302;
+    border-radius: 50%;
+}
+
+.administrate_pic img {
+    width: 120px;
+    height: 120px;
+    bottom: 60px;
+    left: 50%;
+    margin-left: -60px;
+    display: block;
+    position: absolute;
+    animation:administrate 3s infinite;
+}
+
+@keyframes administrate {
+    0%{
+        transform: translateX(0px) rotateX(0deg) scaleX(1) scaleY(1) scaleZ(1);
+    }
+    50%{
+        transform: translateX(0px) rotateX(0deg) scaleX(0.9) scaleY(0.9) scaleZ(0.9);
+    }
+    100%{
+        transform: translateX(0px) rotateX(0deg) scaleX(1) scaleY(1) scaleZ(1);
+    }
+}
+
+.exploring_spot_pic1{
+    width: 30px;
+    height: 30px;
+    left: 100px;
+    top: 135px;
+    border-radius: 50%;
+    background: url("../images/exploring_spot_pic.png") no-repeat;
+    position: absolute;
+}
+
+.exploring_spot_pic2 {
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    top: 55px;
+    margin-left: -15px;
+    border-radius: 50%;
+    background: url("../images/exploring_spot_pic.png") no-repeat;
+    position: absolute;
+}
+
+.exploring_spot_pic3 {
+    width: 30px;
+    height: 30px;
+    right: 100px;
+    top: 135px;
+    border-radius: 50%;
+    background: url("../images/exploring_spot_pic.png") no-repeat;
+    position: absolute;
+
+}
+
+.control-management-bottom .management-details-one {
+    width: 240px;
+    left: 30px;
+    top: 180px;
+    position: absolute;
+}
+
+.control-management-bottom .management-details-two {
+    width: 240px;
+    left: 50%;
+    top: 110px;
+    margin-left: -120px;
+    position: absolute;
+}
+
+.control-management-bottom .management-details-three {
+    width: 240px;
+    right: 10px;
+    top: 185px;
+    position: absolute;
+}
+
+.control-management-bottom .title1 {
+    font-size: 16px;
+    color: #161616;
+    padding-left: 40px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.control-management-bottom .title2 {
+    width: 240px;
+    text-align: center;
+    font-size: 16px;
+    color: #161616;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.control-management-bottom .title3 {
+    width: 240px;
+    text-align: right;
+    font-size: 16px;
+    color: #161616;
+    line-height: 32px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.control-management-bottom p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #999999;
+}
+
+.radar {
+    width: 900px;
+    height: 900px;
+    position: relative;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: rgb(212, 212, 212);
+    border-style: dashed;
+    opacity: 0.302;
+    overflow: hidden;
+}
+
+.radar:after {
+    content: ' ';
+    display: block;
+    background-image: linear-gradient(44deg, rgba(0, 255, 51, 0) 50%, #48c3ff 100%);
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: radar-beam 8s infinite;
+    animation-timing-function: linear;
+    transform-origin: bottom right;
+    border-radius: 100% 0 0 0;
+}
+
+@keyframes radar-beam {
+    0% {
+        transform: rotate(-90deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+/*===================六、SOCIAL TRADING服务体系========================*/
+.serviceSystem_box {
+    width: 1200px;
+    padding: 110px 0;
+    margin: 0 auto;
+}
+
+.serviceSystem_box .header {
+    text-align: center;
+}
+
+.serviceSystem_box .header p {
+    font-size: 32px;
+    color: rgb(22, 22, 22);
+    margin-bottom: 20px;
+}
+
+.serviceSystem_box .header span {
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+}
+
+.serviceSystem_box .serviceSystem_content {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#service_system_list li {
+    width: 224px;
+    height: 320px;
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+    border-radius: 6px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+#service_system_list li:nth-child( 5n + 5) {
+    margin-right: 0;
+}
+
+#service_system_list .list_item {
+    text-align: center;
+}
+
+#service_system_list .img_item {
+    margin-top: 75px;
+}
+
+#service_system_list p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(22, 22, 22);
+}
+
+/*悬停*/
+#service_system_list .hover_content {
+    width: 224px;
+    height: 320px;
+    border-radius: 6px;
+    background-color: rgb(255, 187, 68);
+    padding: 0 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+}
+#service_system_list .hover_content:hover {
+    opacity: 1;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#service_system_list .hover_content .hover_header {
+    text-align: center;
+}
+
+#service_system_list .hover_header p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#service_system_list .hover_content span {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+/*===============七、精选优质交易商==================*/
+.qualityDealer1_box {
+    width: 100%;
+    padding: 110px 0;
+    background: #fff;
+}
+
+.qualityDealer1_box .quality_content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.qualityDealer1_box .quality_content .header {
+    text-align: center;
+}
+
+.qualityDealer1_box .header p {
+    font-size: 32px;
+    color: rgb(22, 22, 22);
+    margin-bottom: 20px;
+}
+
+.qualityDealer1_box .header span {
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+}
+
+.qualityDealer1_box .quality_content .qualityDealer1_content {
+    margin-top: 80px;
+}
+
+#quality_dealer1_list li {
+    width: 300px;
+    height: 181px;
+    list-style: none;
+    float: left;
+    position: relative;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+}
+
+#quality_dealer1_list .list_item {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#quality_dealer1_list li:hover {
+    box-shadow: 0px 3px 4px 3px rgb(212, 212, 212);
+    z-index: 100;
+    cursor: pointer;
+}
+
+/*=============== 八、顶级交易员汇聚 ====================*/
+.trading_box {
+    width:100%;
+    background:#fff;
+    padding-bottom:120px;
+}
+.topTrading_box {
+    width: 1200px;
+    padding: 110px 0 0 0;
+    margin: 0 auto;
+}
+
+.topTrading_box .header {
+    text-align: center;
+}
+
+.topTrading_box .header p {
+    font-size: 32px;
+    color: rgb(22, 22, 22);
+    margin-bottom: 20px;
+}
+
+.topTrading_box .header span {
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+}
+
+.topTrading_box .picture_roll_content {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.topTrading_box .picture_roll_content .pre {
+    cursor: pointer;
+    float: left;
+    margin-top: 87px;
+}
+
+.topTrading_box .picture_roll_content .next {
+    cursor: pointer;
+    float: right;
+    margin-top: 87px;
+}
+
+.topTrading_box .picture_roll_content .picture_box {
+    width: 1040px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#trader_list {
+    width: 30000px;
+}
+
+#trader_list li {
+    width: 260px;
+    list-style: none;
+    float: left;
+    padding: 0 20px;
+}
+
+#trader_list .list_item {
+    width: 219px;
+}
+
+#trader_list .list_item .picture_content {
+    width: 100%;
+    height: 219px;
+    border-radius: 50%;
+    float: left;
+}
+
+#trader_list .list_item .picture_content img {
+    width: 100%;
+    height: 219px;
+    border-radius: 50%;
+}
+
+#trader_list .list_item .describe_content {
+    float: left;
+}
+
+#trader_list .describe_content .trader_name {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(22, 22, 22);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#trader_list .describe_content span {
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+}

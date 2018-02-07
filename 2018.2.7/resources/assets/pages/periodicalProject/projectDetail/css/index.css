@@ -1,0 +1,464 @@
+/*策略数据*/
+.storm_control_box {
+    margin-top: 20px;
+    width: 1200px;
+}
+
+.independent_storm_control {
+    width: 280px;
+    float: left;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.transaction_data {
+    width: 900px;
+    float: right;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.independent_storm_control_top {
+    width: 280px;
+    height: 50px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.independent_storm_control_top p {
+    line-height: 50px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.independent_storm_control_content {
+    padding: 30px;
+
+}
+
+.independent_storm_control_content .details_content_list {
+    width: 220px;
+    height: 36px;
+}
+
+.independent_storm_control_content .details_content_list ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.independent_storm_control_content .details_content_list ul li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+.details_content_list ul .worth {
+    color: #333333;
+    font-weight: bold;
+}
+
+.details_content_list ul li .iconfont {
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.transaction_data_top {
+    height: 50px;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 0px 30px;
+}
+
+.transaction_data_top div {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transaction_data_top div .transaction_data_title {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.transaction_data_date {
+    font-size: 12px;
+    color: #999999;
+}
+
+.transaction_data_container {
+    padding: 40px 0px;
+}
+
+.transaction_data_content {
+    width: 900px;
+    height: 54px;
+    margin-bottom: 50px;
+}
+
+.transaction_data_content ul li p:nth-child(1) {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 300;
+}
+
+.transaction_data_content ul li p:nth-child(2) {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 300;
+}
+
+.transaction_data_content:nth-last-child(1) {
+    margin-bottom: 0px;
+}
+
+.transaction_data_content ul li {
+    width: 300px;
+    height: 54px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #d4d4d4;
+}
+
+.transaction_data_content ul li p {
+    height: 27px;
+    line-height: 27px;
+}
+
+.transaction_data_content ul li:nth-last-child(1) {
+    border: none;
+}
+
+.transaction_data_content ul li p .iconfont {
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+/*累计盈亏/收益表现/交易品种/手数变化*/
+.no-data-show{
+    text-align: center;
+    font-size: 16px;
+}
+.cumulative_content{
+    padding-bottom: 40px;
+}
+.transaction_category {
+    width: 1200px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.transaction_category_checkout {
+    width: 1200px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    /*border-bottom: 1px solid #CCCCCC;*/
+}
+
+.transaction_category_checkout ul li {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.transaction_category_checkout ul li.cur {
+    border-top: 2px solid #FFA114;
+    border-bottom: none;
+    color: #FFA114;
+}
+
+.transaction_category_checkout p {
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.transaction_category_date {
+    font-size: 12px;
+    color: #999999;
+    text-align: right;
+    padding-right: 30px;
+}
+
+/*累计盈亏*/
+.cumulative_nav {
+    width: 1140px;
+    height: 50px;
+    margin: auto;
+    border-bottom: 1px solid #EEEEEE;
+    padding-left: 30px;
+}
+
+.cumulative_nav ul li {
+    float: left;
+    height: 50px;
+    width: 40px;
+    font-size:12px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.cumulative_nav ul li.cur{
+    border-bottom: 1px solid #FFA114;
+    color: #FFA114;
+}
+
+.cumulative_chart_information{
+    width: 1024px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #EEEEEE;
+    background-color: #F5F5F5;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.cumulative_echarts{
+    width: 1200px;
+    /*margin-left: 50px;*/
+}
+.echarts-diversification2{
+    display: flex;
+    justify-content: center;
+}
+.echart-performance-right-container{
+    width: 600px;
+    height: 360px;
+    padding-left: 60px;
+}
+.echart-right-content .title span{
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+.performance-details{
+    width: 340px;
+    height: 300px;
+    max-height: 300px;
+    overflow-x: hidden;
+}
+.performance-details li{
+    width: 350px;
+    border-bottom:1px solid #EEEEEE;
+}
+.performance-details li span{
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+/*参与详情*/
+.follow_details {
+    width: 1200px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-bottom:40px;
+}
+
+.follow_details .follow_details_container_top {
+    width: 1200px;
+    height: 70px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.container_top_l ul li {
+    float: left;
+    width: 160px;
+    margin-left: 30px;
+}
+
+.container_top_l ul li p {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container_top_l .total_profit {
+    color: #08AF4A;
+    margin-left: 5px;
+}
+
+.container_top_l .total_fund {
+    color: #333333;
+    margin-left: 5px;
+
+}
+
+.container_top_r {
+    padding-right: 30px;
+}
+
+.container_top_r button {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+}
+
+div .container_top_r .ls_btn {
+    background-color: #999999;
+    color: #ffffff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.container_top_r .history_btn {
+    background-color: #ffffff;
+    color: #999999;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.follow_details_list{
+    width: 1064px;
+    margin: auto;
+}
+.follow_details_list table{
+    background-color: #d4d4d4;
+    border-spacing:1px
+}
+.follow_details_list thead tr td{
+    width: 355px;
+    height: 50px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.follow_details_list tr td{
+    width: 355px;
+    height: 60px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.follow_details_list tr td img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 12px 10px;
+    border-radius: 50px;
+}
+.follow_details_list .follow_details_td{
+    text-align: left;
+}
+
+.follow_details_tr{
+    width: 150px;
+    height: 50px;
+}
+.follow_details_tr div{
+    float: right;
+    padding-top: 10px;
+}
+
+.follow_details_tr div p{
+    width: 100px;
+    line-height: 30px;
+    font-size: 12px;
+    color:#666666;
+}
+.partcipate-user{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 80px;
+    height: 60px;
+}
+.partcipate-user .pic{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    margin:5px 10px;
+}
+/*交易订单*/
+.trading_order {
+    width: 1200px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.trading_order .trading_order_container_top {
+    width: 1200px;
+    height: 70px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.trading_order_list{
+    width: 1064px;
+    margin: auto;
+}
+.trading_order_list table{
+    background-color: #d4d4d4;
+    border-spacing:1px
+}
+.trading_order_list thead tr td{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.trading_order_list tr td{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.trading_order_list tr td img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 12px 10px;
+    border-radius: 50px;
+}
+
+.page {
+    text-align: right;
+    margin-top: 60px;
+    margin-right: 75px;
+}
+

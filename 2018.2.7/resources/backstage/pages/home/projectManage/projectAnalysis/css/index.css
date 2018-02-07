@@ -1,0 +1,763 @@
+.layout-content-main{
+
+}
+
+#trading_strategy_follow {
+    width: 100%;
+    margin: 30px auto;
+    padding: 20px 10px;
+    background-color: #f5f7f9;
+}
+
+/*顶部信息*/
+.follow_container_top {
+    width: 1200px;
+    border-radius: 6px;
+    padding: 20px 0px 40px;
+    background-color: #ffffff;
+}
+
+.follow_container_top .top_content_left {
+    width: 100px;
+    margin-left: 100px;
+    text-align: center;
+    float: left;
+}
+
+.follow_container_top .top_content_left .avatar {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: #CCCCCC;
+}
+
+.follow_container_top .top_content_left p {
+    font-size: 16px;
+    color: #333333;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.follow_container_top .top_content_left .follow_btn {
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    color: #666666;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.follow_container_top .top_content_left .follow_btn span {
+    font-size: 18px;
+    color: #666;
+    line-height: 28px;
+    display: inline-block;
+}
+.follow_container_top .top_content_left .follow_btn .typeface{
+    font-size: 14px;
+    line-height: 30px;
+    display: inline-block;
+}
+.top_content_center {
+    width: 660px;
+    margin-left: 40px;
+    float: left;
+}
+
+.top_content_center p {
+    width: 660px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #999999;
+}
+
+.top_content_center div {
+    width: 660px;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.top_content_center div ul li {
+    width: 160px;
+    height: 50px;
+    float: left;
+    border-right: 1px solid #d4d4d4;
+}
+
+.top_content_center div ul li:nth-last-child(1) {
+    border: none;
+}
+
+.top_content_center div ul li p {
+    width: 160px;
+    color: #333333;
+    text-align: center;
+}
+
+.top_content_center div ul li .prompt_text {
+    color: #999999;
+    font-size: 14px;
+}
+
+.top_content_right {
+    float: right;
+    margin-right: 60px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.top_content_right button {
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FFA114;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.top_content_center div ul li .monthly_average_income {
+    color: #09af48;
+}
+
+.top_content_right .already_follow{
+    background-color: rgb( 245, 245, 245 );
+    border: 1px solid #dddddd;
+    color: #666666;
+}
+
+.already_follow_font{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 16px;
+}
+.already_follow_icon{
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 16px;
+    font-size: 18px;
+    color: #999999;
+}
+.drop_down_btn{
+    top: 50px;
+    left: 0px;
+    position: absolute;
+    width: 160px;
+}
+
+.drop_down_btn button{
+    width: 160px;
+    height: 35px;
+    margin-top: 2px;
+    border-radius: 5px;
+    background-color: rgb( 245, 245, 245 );
+    color: #666666;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drop_down_btn button span{
+    line-height: 35px;
+    height: 35px;
+}
+
+
+/*切换tab*/
+.follow_checkout {
+    width: 1200px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.follow_checkout ul {
+    margin-left: 68px;
+}
+
+.follow_checkout ul li {
+    float: left;
+    width: 70px;
+    height: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333333;
+    margin-right: 76px;
+    cursor: pointer;
+}
+
+.follow_checkout ul li.current {
+    color: #FFA114;
+    border-bottom: 1px solid #FFA114;
+}
+
+.follow_checkout ul li:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+/*动态交流*/
+.dynamic_communication_box {
+    width: 1200px;
+    height: 400px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*策略数据*/
+.storm_control_box {
+    margin-top: 20px;
+    width: 1200px;
+}
+
+.independent_storm_control {
+    width: 280px;
+    float: left;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.transaction_data {
+    width: 900px;
+    float: right;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.independent_storm_control_top {
+    width: 280px;
+    height: 50px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.independent_storm_control_top p {
+    line-height: 50px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.independent_storm_control_content {
+    padding: 30px;
+
+}
+
+.independent_storm_control_content .details_content_list {
+    width: 220px;
+    height: 36px;
+}
+
+.independent_storm_control_content .details_content_list ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.independent_storm_control_content .details_content_list ul li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+.details_content_list ul .worth {
+    color: #333333;
+    font-weight: bold;
+}
+
+.details_content_list ul li .iconfont {
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.transaction_data_top {
+    height: 50px;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 0px 30px;
+}
+
+.transaction_data_top div {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transaction_data_top div .transaction_data_title {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.transaction_data_date {
+    font-size: 12px;
+    color: #999999;
+}
+
+.transaction_data_container {
+    padding: 40px 0px;
+}
+
+.transaction_data_content {
+    width: 900px;
+    height: 54px;
+    margin-bottom: 50px;
+}
+
+.transaction_data_content ul li p:nth-child(1) {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 300;
+}
+
+.transaction_data_content ul li p:nth-child(2) {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 300;
+}
+
+.transaction_data_content:nth-last-child(1) {
+    margin-bottom: 0px;
+}
+
+.transaction_data_content ul li {
+    width: 225px;
+    height: 54px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #d4d4d4;
+}
+
+.transaction_data_content ul li p {
+    height: 27px;
+    line-height: 27px;
+}
+
+.transaction_data_content ul li:nth-last-child(1) {
+    border: none;
+}
+
+.transaction_data_content ul li p .iconfont {
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+/*累计盈亏/收益表现/交易品种/手数变化*/
+
+.cumulative_content{
+    padding-bottom: 40px;
+}
+.transaction_category {
+    width: 1200px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.transaction_category_checkout {
+    width: 1200px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    /*border-bottom: 1px solid #CCCCCC;*/
+}
+
+.transaction_category_checkout ul li {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.transaction_category_checkout ul li.cur {
+    border-top: 2px solid #FFA114;
+    border-bottom: none;
+    color: #FFA114;
+}
+
+.transaction_category_checkout p {
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.transaction_category_date {
+    font-size: 12px;
+    color: #999999;
+    text-align: right;
+    padding-right: 30px;
+}
+
+/*累计盈亏*/
+.cumulative_nav {
+    width: 1140px;
+    height: 50px;
+    margin: auto;
+    border-bottom: 1px solid #EEEEEE;
+    padding-left: 30px;
+}
+
+.cumulative_nav ul li {
+    float: left;
+    height: 50px;
+    width: 40px;
+    font-size:12px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.cumulative_nav ul li.cur{
+    border-bottom: 1px solid #FFA114;
+    color: #FFA114;
+}
+
+.cumulative_chart_information{
+    width: 1024px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #EEEEEE;
+    background-color: #F5F5F5;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.cumulative_echarts{
+    width: 1100px;
+    margin-left: 50px;
+}
+
+/*跟随详情*/
+.follow_details {
+    width: 1200px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-bottom:40px;
+}
+
+.follow_details .follow_details_container_top {
+    width: 1200px;
+    height: 70px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.container_top_l ul li {
+    float: left;
+    width: 160px;
+    margin-left: 30px;
+}
+
+.container_top_l ul li p {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container_top_l .total_profit {
+    color: #08AF4A;
+    margin-left: 5px;
+}
+
+.container_top_l .total_fund {
+    color: #333333;
+    margin-left: 5px;
+
+}
+
+.container_top_r {
+    padding-right: 30px;
+}
+
+.container_top_r button {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+}
+
+.container_top_r .ls_btn {
+    background-color: #999999;
+    color: #ffffff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.container_top_r .history_btn {
+    background-color: #ffffff;
+    color: #999999;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.follow_details_list{
+    width: 1064px;
+    margin: auto;
+}
+.follow_details_list table{
+    background-color: #d4d4d4;
+    border-spacing:1px
+}
+.follow_details_list thead tr td{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.follow_details_list tr td{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.follow_details_list tr td img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 12px 10px;
+    border-radius: 50px;
+}
+.follow_details_list .follow_details_td{
+    text-align: left;
+}
+
+.follow_details_tr{
+    width: 150px;
+    height: 50px;
+}
+.follow_details_tr div{
+    float: right;
+    padding-top: 10px;
+}
+
+.follow_details_tr div p{
+    width: 100px;
+    line-height: 16px;
+    font-size: 12px;
+    color:#666666;
+}
+
+/*交易订单*/
+.trading_order {
+    width: 1200px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.trading_order .trading_order_container_top {
+    width: 1200px;
+    height: 70px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.trading_order_list{
+    width: 1064px;
+    margin: auto;
+}
+.trading_order_list table{
+    background-color: #d4d4d4;
+    border-spacing:1px
+}
+.trading_order_list thead tr td{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.trading_order_list tr td{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.trading_order_list tr td img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 12px 10px;
+    border-radius: 50px;
+}
+
+.page {
+    text-align: right;
+    margin-top: 60px;
+    margin-right: 64px;
+}
+
+
+/*悬浮块*/
+.pullDown_switch {
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+    position: fixed;
+    width: 1200px;
+    height: 90px;
+    /*box-shadow: 0px 3px 3px 3px rgba(238, 238, 238,.9);*/
+    box-shadow: 0px 4px 4px 4px rgba( 212, 212, 212,.7 );
+    border-color: rgb( 238, 238, 238);
+    z-index: 153;
+    background-color: #fff;
+}
+
+.pullDown_switch ul li {
+    height: 90px;
+    float: left;
+}
+
+.pullDown_switch_left {
+    width: 140px;
+    height: 90px;
+    margin-left: 100px;
+}
+
+.pullDown_switch_left .left_box {
+    width: 60px;
+    height: 90px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+.pullDown_switch_left .left_box img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.pullDown_switch_left .right_box {
+    width: 60px;
+    height: 90px;
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+
+.pullDown_switch_left .right_box p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    height: 32px;
+    line-height: 16px;
+}
+
+.pullDown_switch_left .right_box button {
+    /*margin-top: 10px;*/
+    width: 50px;
+    height: 20px;
+    border: 1px solid #CCCCCC;
+    background-color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.pullDown_switch_center {
+    width: 680px;
+    height: 90px;
+}
+
+.pullDown_switch_center_container {
+    width: 680px;
+    height: 90px;
+}
+
+.pullDown_switch_center_container .pullDown_switch_center_ul {
+    width: 680px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.pullDown_switch_center_ul p span {
+    font-size: 16px;
+    color: #333333;
+}
+.pullDown_switch_center_ul .monthly_average_income span{
+    color: #09af48;
+}
+.pullDown_switch_center_ul .prompt_text {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.pullDown_switch_center_container ul li {
+    width: 170px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #CCCCCC;
+}
+
+.pullDown_switch_center_container ul li:nth-last-child(1) {
+    border-right: none;
+}
+
+.pullDown_switch_right {
+    width: 120px;
+    height: 90px;
+    margin-left: 100px;
+}
+
+.pullDown_switch_right button {
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #ffa114;
+    color: #fffdef;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.pullDown_switch_right .already_follow{
+    background-color: rgb( 245, 245, 245 );
+    border: 1px solid #dddddd;
+    color: #666666;
+}
+

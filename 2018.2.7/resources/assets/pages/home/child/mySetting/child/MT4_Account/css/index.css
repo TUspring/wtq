@@ -1,0 +1,157 @@
+/*****MT4账号*******/
+.mt4_account{
+    width: 970px;
+}
+.simulation_account{
+    width: 970px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.simulation_account .simulation_account_top{
+    width: 970px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    padding-left: 30px;
+    color: #333333;
+    font-weight: bold;
+    border-bottom: 1px solid #CCCCCC;
+}
+.simulation_account .simulation_account_content{
+    width: 970px;
+    padding: 30px;
+}
+.mt4_account .classification_list{
+    width: 910px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex: 1;
+}
+.mt4_account .classification_list li{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    line-height: 40px;
+    list-style: none;
+    float: left;
+    color: #666666;
+    font-weight: bold;
+    text-align: center;
+}
+
+.simulation_account_content .data_list{
+    width: 910px;
+    height: 60px;
+    display: flex;
+    flex: 1;
+}
+.simulation_account_content .data_list li{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    line-height: 60px;
+    list-style: none;
+    float: left;
+    color: #333333;
+    text-align: center;
+}
+
+
+.real_account{
+    width: 970px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.real_account .real_account_top{
+    width: 970px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    padding-left: 30px;
+    color: #333333;
+    font-weight: bold;
+    border-bottom: 1px solid #CCCCCC;
+}
+.real_account .relation_mt4{
+    float: right;
+    color: #FFA114;
+    font-size: 12px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.real_account_content{
+    width: 970px;
+    padding: 30px;
+}
+
+.real_account_content .relation_status{
+    width: 910px;
+}
+
+.real_account_content .fail_information{
+    font-size: 12px;
+    color: #ccc;
+}
+.relation_status ul{
+    width: 910px;
+    height: 60px;
+    display: flex;
+    flex: 1;
+}
+.relation_status li{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    line-height: 60px;
+    list-style: none;
+    float: left;
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+}
+.relation_fail .operation_btn{
+    display: flex;
+    align-items: center;
+}
+.relation_fail .operation_btn button{
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.relation_fail li p{
+    line-height: 24px;
+    padding: 10px 24px;
+}
+
+.relation_fail .operation_btn .again_relation{
+    background-color: #FFA114;
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.relation_fail .operation_btn .remove{
+    color: #999999;
+    background-color: #eeeeee;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.relation_success .change_psw{
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #999999;
+    background-color: #EEEEEE;
+}
+.success_btn{
+    align-items: center;
+}

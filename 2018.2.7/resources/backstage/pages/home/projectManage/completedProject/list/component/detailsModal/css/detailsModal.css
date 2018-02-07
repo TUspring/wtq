@@ -1,0 +1,230 @@
+.details_box {
+    width:740px;
+    background:#fff;
+    padding-bottom: 30px;
+}
+/*.top {*/
+    /*width:100%;*/
+    /*height:50px;*/
+    /*line-height:50px;*/
+    /*text-align:center;*/
+    /*background:#FFA113;*/
+    /*color: #ffffff;*/
+    /*font-size:20px;*/
+/*}*/
+.top {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    padding:0px 20px;
+    background-color: #ffa114;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.close-icon{
+    cursor: pointer;
+}
+.close-icon:hover{
+    color: #999;
+}
+.content {
+    width:100%;
+    height:600px;
+    background:#fff;
+    overflow-y:auto;
+    padding:0 20px;
+    box-shadow: 0 -5px 25px 0px #d4d4d4 inset;
+}
+
+/*公共*/
+.strategy_information, .signalSource_information, .riskControl_information {
+    width:100%;
+    border:1px solid #D4D4D4;
+    margin-top:40px;
+}
+.header {
+    width:100%;
+    height:50px;
+    line-height:50px;
+    background:#F5F5F5;
+    font-size:14px;
+    color:#666666;
+    padding:0 10px;
+    border-bottom:1px solid #D4D4D4;
+}
+/*================策略基本信息===============*/
+.strategy_content {
+    width:100%;
+    padding:20px;
+}
+.left_content {
+    width:60%;
+    float:left;
+    padding-right:20px;
+}
+.left_content .name_content {
+    width:100%;
+    margin-bottom:30px;
+}
+.name_content .name_title {
+    float:left;
+    font-size:12px;
+}
+.name_content .name {
+    overflow:hidden;
+    font-size:12px;
+    padding-left:40px;
+}
+.left_content .describe_content {
+    width:100%;
+}
+.describe_content .describe_title {
+    float:left;
+    font-size:12px;
+}
+.describe_content .describe {
+    overflow:hidden;
+    font-size:12px;
+    padding-left:40px;
+}
+.right_content {
+    width:40%;
+    float:left;
+}
+.right_content .portrait_title {
+    float:left;
+    margin-right:80px;
+}
+.right_content .img_content {
+    width:120px;
+    height:120px;
+    overflow:hidden;
+    background:pink;
+}
+.img_content img {
+    display:block;
+    width:120px;
+    height:120px;
+}
+/*================信号源信息===============*/
+.signalSource_content {
+    width:100%;
+    padding:30px 30px 0 30px;
+}
+#signal_list li {
+    width:50%;
+    position:relative;
+    list-style:none;
+    float:left;
+    margin-bottom:40px;
+}
+#signal_list .item_title {
+    float:left;
+}
+#signal_list .item_value {
+    overflow:hidden;
+    position:absolute;
+    left:120px;
+}
+/*================风控指标===============*/
+.risk_content {
+    width:100%;
+    padding:30px 30px 0 30px;
+}
+#risk_list li {
+    width:50%;
+    position:relative;
+    list-style:none;
+    float:left;
+    margin-bottom:40px;
+}
+#risk_list .item_title {
+    float:left;
+}
+#risk_list .item_value {
+    overflow:hidden;
+    position:absolute;
+    left:120px;
+}
+
+
+.button_content {
+    margin-top:20px;
+    padding-bottom:10px;
+    display: flex;
+    justify-content: center;
+}
+.btnClass {
+    display: inline-block;
+    width:80px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    background:#FFA114;
+    border-radius:6px;
+    color:#ffffff;
+    cursor:pointer;
+    float:right;
+    margin-top:9px;
+}
+.edit {
+    padding:10px 30px;
+    background:#FFA114;
+    border-radius:6px;
+    float:left;
+    color:#ffffff;
+    cursor:pointer;
+}
+.close {
+    /*padding:10px 30px;*/
+    /*background:#EEEEEE;*/
+    /*float:left;*/
+    /*border-radius:6px;*/
+    /*cursor:pointer;*/
+    /*margin-left:40px;*/
+    padding:10px 30px;
+    background:#FFA114;
+    border-radius:6px;
+    float:left;
+    color:#ffffff;
+    cursor:pointer;
+}
+.save {
+    padding:10px 30px;
+    background:#FFA114;
+    border-radius:6px;
+    float:left;
+    color:#ffffff;
+    cursor:pointer;
+}
+
+
+/*=============编辑样式层叠==============*/
+#signal_list .item_value input {
+    width:150px;
+    height:30px;
+    border:1px solid #DDDEE1;
+    border-radius:4px;
+    padding-left:7px;
+}
+#signal_list .item_value select {
+    width:150px;
+    height:20px;
+    border:1px solid #999999;
+}
+#risk_list .item_value input {
+    width:150px;
+    height:30px;
+    border:1px solid #DDDEE1;
+    border-radius:4px;
+    padding-left:7px;
+}
+#risk_list .item_value select {
+    width:150px;
+    height:20px;
+    border:1px solid #999999;
+}

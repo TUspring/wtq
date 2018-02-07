@@ -1,0 +1,160 @@
+/*strategy-list 样式*/
+#main {
+    margin-top: 20px;
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-top {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.nav-top a {
+    text-decoration: none;
+    color: #363636;
+    font-size: 16px;
+    font-weight: bold;
+    width: 220px;
+    height: 80px;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-top a:last-child {
+    color: #363636;
+    border-top: none;
+    border-right: none;
+}
+
+.nav-top a.cur {
+    color: #FFA113;
+    border-right: 1px solid #EEEEEE;
+    border-top: 1px solid #FFA113;
+}
+
+.nav-top a:last-child.cur {
+    border-left: 1px solid #EEEEEE;
+}
+
+.user_msg-list table {
+    width: 100%;
+}
+
+.user_msg-list table tr {
+    background: #fff;
+}
+
+.user_msg-list table .th_text_top {
+    height: 40px;
+}
+
+.user_msg-list table .th_text_content {
+    height: 90px;
+}
+
+.user_msg-list table .base_information {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.user_msg-list table tr th {
+    color: #363636;
+    font-size: 14px;
+    padding: 13px 0px;
+    border-top: 10px solid #F5F5F5;
+    border-bottom: 10px solid #F5F5F5;
+    text-align: center;
+}
+
+.user_msg-list table tr td {
+    color: #363636;
+    font-size: 14px;
+    padding: 13px 0px;
+    border-top: 10px solid #F5F5F5;
+    border-bottom: 10px solid #F5F5F5;
+    text-align: center;
+}
+
+.user_msg-list table tr th i {
+    font-size: 16px;
+}
+
+.user_msg-list table tr p img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 50%;
+    display: inline-block;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+.user_msg-list table tr p {
+    height: 50px;
+}
+
+.user_msg-list table tr i {
+    color: #FFA113;
+}
+
+/*.user_msg-list table tr span {*/
+/*color:#999999;*/
+/*border:1px solid #D4D4D4;*/
+/*padding:5px 10px;*/
+/*border-radius:5px;*/
+/*cursor:pointer;*/
+/*}*/
+.user_msg-list .follow_btn {
+    color: #fff;
+    background: #FFA113;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.user_msg-list .alreadyfollow_btn{
+    color: #666666;
+    background: #D4D4D4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*第一行的下边框*/
+.user_msg-list table tr:nth-child(1) {
+    border-bottom: 20px solid #F5F5F5;
+    padding: 10px 0;
+}
+
+/*第三列的颜色*/
+.user_msg-list table tr th:nth-child(3) {
+    color: green;
+}
+
+/*第一行的颜色*/
+.user_msg-list table tr:nth-child(1) th {
+    color: #666666;
+}
+
+.user_msg-list table tr:nth-child(1) th i {
+    color: #666666;
+}
+
+.details{
+    width: 200px;
+    height: 50px;
+}
+.noList_box{
+    font-size: 18px;
+    color: #999;
+}

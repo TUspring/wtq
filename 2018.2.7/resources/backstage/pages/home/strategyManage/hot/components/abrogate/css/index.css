@@ -1,0 +1,65 @@
+.refuse-publish {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+}
+
+.refuse-publish-container {
+    width: 514px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 30px 0px 60px 0px;
+}
+.refuse-publish-container .title{
+    width: 514px;
+    height: 30px;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.refuse-edit{
+    width: 514px;
+    padding-left: 100px;
+}
+.refuse-publish-container  .name{
+    color: #ffa114;
+}
+.refuse-edit span{
+    font-size: 16px;
+    display: inline-block;
+}
+.refuse-edit input{
+    width: 220px;
+    height: 125px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+.refuse-btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.refuse-btn span {
+    width: 88px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    border: 1px solid #CCCCCC;
+}
+
+.refuse-btn .confirm {
+    margin-left: 120px;
+}

@@ -1,0 +1,43 @@
+#e_identifying {
+    width: 1200px;
+    height: 238px;
+    margin:30px auto;
+    border-radius: 6px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+#e_identifying .details{
+    width: 700px;
+    height: 138px;
+    margin-left: 60px;
+}
+#e_identifying .details .p1{
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 16px;
+}
+#e_identifying .details .p2{
+    margin-bottom: 40px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #666666;
+}
+#e_identifying .details .p2 span{
+    color: #ffa114;
+    cursor: pointer;
+}
+#e_identifying .details .p2 span.disabled{
+    color: grey;
+    cursor: not-allowed;
+}
+#e_identifying .details button {
+    width: 140px;
+    height: 40px;
+    background-color: #ffa114;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

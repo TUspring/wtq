@@ -1,0 +1,107 @@
+.layout-content-main{
+    padding: 10px;
+}
+.examine-top {
+    width: 100%;
+    height: 34px;
+    margin-top:20px;
+    margin-bottom: 10px;
+    padding:0 10px;
+}
+
+.examine-top .leftInfo {
+    float: left;
+    width: 100px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    box-shadow: 0px 0px 3px 0px #CCCCCC;
+    background-color: #fff;
+}
+
+.leftInfo .number {
+    color: #ffa114;
+}
+.settlement_btn {
+    width: 80px;
+    height: 34px;
+    line-height:34px;
+    border-radius:6px;
+    background:#ffa114;
+    color:#fff;
+    float:left;
+    text-align:center;
+    margin-left:10px;
+    margin-right:20px;
+    cursor:pointer;
+}
+.rightInfo {
+    float: right;
+    height: 34px;
+}
+.rightInfo .rightInfo-l {
+    float:left;
+    height:32px;
+    line-height: 32px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.rightInfo .rightInfo-l input {
+    width:100px;
+    height:32px;
+    line-height: 32px;
+    border:1px solid #dddee1;
+    border-radius: 6px;
+    padding-left:10px;
+}
+.rightInfo .rightInfo-l span {
+    display: inline-block;
+    height:32px;
+    width:50px;
+    text-align: center;
+    color:#fff;
+    border-radius: 6px;
+    background:#ffa114;
+    cursor:pointer;
+}
+.rightInfo .rightInfo-2 {
+    float:left;
+}
+.search_time_content {
+    float:left;
+}
+.checkAll {
+    cursor:pointer;
+    padding:3px 10px;
+    border-radius: 5px;
+    color:#fff;
+    background:#ffa114;
+
+}
+/*========列表========*/
+.list_box {
+    margin-left:10px;
+    margin-right:10px;
+}
+table {
+    border:1px solid #D4D4D4;
+    border-collapse:collapse;
+}
+.list_box  th {
+    height:40px;
+    color:#666666;
+    font-size:14px;
+    background:#F5F7F9;
+}
+.list_box  td {
+    height:50px;
+    text-align:center;
+}
+.settlement {
+    border:1px solid #ffa114;
+    color:#ffa114;
+    padding:3px 8px;
+    border-radius:6px;
+    cursor:pointer;
+}
+/*========列表========*/

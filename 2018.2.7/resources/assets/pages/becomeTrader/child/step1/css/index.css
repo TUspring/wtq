@@ -1,0 +1,220 @@
+.content_top {
+    height:80px;
+    line-height:80px;
+    font-size:16px;
+    font-weight:bold;
+    color:#161616;
+    border-bottom:1px solid #D3D3D3;
+    margin:0 auto;
+    padding:0 20px;
+    margin-bottom:50px;
+}
+
+.content ul li {
+    margin-bottom:30px;
+}
+.content ul li p {
+    margin-left:160px;
+    color:red;
+    margin-top:5px;
+}
+.name_input_content,.ID_input_content {
+    width:500px;
+    height:50px;
+    line-height:50px;
+    padding:0 20px;
+}
+.name_input_content span,.ID_input_content span,.upload_ID_img-contetn span  {
+    font-size: 14px;
+    color:#999999;
+}
+.name_input_content input,.ID_input_content input {
+    width: 319px;
+    height: 49px;
+    border:1px solid #D4D4D4;
+    border-radius: 6px;
+    float:right;
+    padding:0 20px;
+}
+
+.upload_ID_img-contetn {
+    width:500px;
+    height: 111px;
+    /*line-height:111px;*/
+    padding:0 20px;
+}
+.upload_ID_img-contetn .uploadTitle {
+    float:left;
+    height: 111px;
+    line-height:111px;
+}
+.upload_ID_img-contetn .ID_img_content {
+    float:right;
+}
+#upload_positive,#upload_opposite {
+    width: 121px;
+    height: 111px;
+    float:left;
+    cursor:pointer;
+}
+#upload_opposite {
+    margin-left:75px;
+}
+
+
+.example_ID_img_content {
+    position:relative;
+    width:500px;
+    height: 111px;
+    padding:0 20px;
+}
+.example_ID_img_content .ID_img_content {
+    float:right;
+}
+#example_positive,#example_opposite {
+    width: 121px;
+    height: 111px;
+    float:left;
+    text-align:center;
+    padding-top:15px;
+    border-radius: 6px;
+}
+#example_opposite {
+    margin-left:75px;
+}
+#example_positive img, #example_opposite img {
+    width: 100%;
+}
+
+/*====图片遮罩==*/
+#positive_shadow,#opposite_shadow {
+    position:absolute;
+    width: 121px;
+    height: 111px;
+    border-radius: 6px;
+    color:#fff;
+    background-color:rgba(0,0,0,0.5);
+    border:1px solid yellow;
+}
+#opposite_shadow {
+    position:absolute;
+    right:20px;
+}
+#positive_shadow .icon_content, #opposite_shadow .icon_content{
+    width:30px;
+    text-align:center;
+    margin:0 auto;
+    margin-top:20px;
+}
+#positive_shadow .icon_content i,#opposite_shadow .icon_content i {
+    font-size:28px;
+}
+
+#warning p {
+    margin-left:0;
+    font-size: 12px;
+    color:#333333;
+}
+#warning p span {
+    color:#999999;
+}
+#next {
+    width:140px;
+    height:41px;
+    line-height:41px;
+    font-size: 14px;
+    color:#fff;
+    text-align:center;
+    border-radius: 6px;
+    cursor:pointer;
+    background-color: rgb( 255, 161, 20 );
+}
+
+
+/*===============弹窗=============*/
+.progress_content {
+    width:630px;
+    border-radius:6px;
+    padding-bottom:40px;
+    margin-right:40px;
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.1);
+    background:#fff;
+}
+.progress_content .progress_top {
+    width:620px;
+    height:60px;
+    padding:0 20px;
+    line-height:60px;
+    border-bottom:1px solid #EEEEEE;
+}
+.progress_content .progress_top span {
+    font-size:16px;
+    color:#151515;
+}
+.progress_content .progress_middle {
+    width:321px;
+    margin:0 auto;
+    text-align:center;
+    margin-top:60px;
+}
+.progress_content .progress_middle p {
+    font-size: 18px;
+    color:#FFA113;
+}
+.progress_content .progress {
+    width:321px;
+    margin:0 auto;
+    margin-top:60px;
+    text-align:center;
+}
+
+/*=============验证成功 / 验证失败===============*/
+.success_content,.fail_content {
+    width:630px;
+    border-radius:6px;
+    padding-bottom:40px;
+    margin-right:40px;
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.1);
+    background:#fff;
+}
+.success_content .success_top, .fail_content .fail_top {
+    width:620px;
+    height:60px;
+    padding:0 20px;
+    line-height:60px;
+    border-bottom:1px solid #EEEEEE;
+}
+.success_content .success_top span,.fail_content .fail_top span {
+    font-size:16px;
+    color:#151515;
+}
+.success_content .success_middle,.fail_content .fail_middle{
+    width:321px;
+    margin:0 auto;
+    text-align:center;
+    margin-top:60px;
+}
+.success_content .success_middle p, .fail_content .fail_middle p{
+    font-size: 16px;
+    color:#333333;
+    margin-bottom:20px;
+}
+.success_content .success_middle span, .fail_content .fail_middle span{
+    font-size: 12px;
+    color:#999999;
+}
+.success_content .button, .fail_content .button{
+    width:321px;
+    height: 51px;
+    line-height:51px;
+    text-align:center;
+    font-size: 16px;
+    color:#fff;
+    margin:0 auto;
+    margin-top:40px;
+    border-radius: 6px;
+    background:#FFA113;
+    cursor:pointer;
+}
+
+

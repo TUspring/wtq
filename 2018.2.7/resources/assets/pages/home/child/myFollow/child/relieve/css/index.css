@@ -1,0 +1,46 @@
+
+#min {
+    margin-top:20px;
+}
+.followName-list {
+    width:970px;
+    background:#fff;
+    margin-top:20px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+}
+.followName-list li {
+    width:20%;
+    height:60px;
+    line-height:60px;
+    font-size:14px;
+    text-align:center;
+    list-style:none;
+    float:left;
+}
+
+.followUser-list {
+    width:970px;
+    background:#fff;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+}
+.followUser-list li {
+    width:20%;
+    height:130px;
+    line-height:130px;
+    font-size:14px;
+    text-align:center;
+    list-style:none;
+    float:left;
+    border-top:1px solid #D4D4D4;
+}
+.followUser-list li:first-child {
+    line-height:0px;
+}
+.followUser-list li img {
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    margin:20px 0;
+}

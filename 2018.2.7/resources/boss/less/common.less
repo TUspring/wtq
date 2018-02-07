@@ -1,0 +1,149 @@
+@size: 0px;
+@primary-color: #ffa71a;
+
+// Prefix
+@css-prefix             : ivu-;
+@css-prefix-icon    : ivu-icon;
+
+body {
+    padding: @size;
+    margin: @size;
+}
+/**iview.css reset**/
+/**Modal reset**/
+@modal-prefix: ~"@{css-prefix}modal";
+//自定义弹窗 去掉头尾关闭按钮和内容padding
+.@{modal-prefix}-wrap.ivu-modal-custom {
+    .@{modal-prefix}{
+        &-modal{
+        }
+        &-close,&-header,&-footer{
+            display:none;
+        }
+        &-body{
+            padding:0
+        }
+        &-content{
+            background-color:inherit;
+        }
+    }
+}
+//无头部弹窗
+.@{modal-prefix}-wrap.ivu-modal-noHead {
+    .@{modal-prefix}{
+        &-close,&-header{
+            display:none;
+        }
+    }
+}
+//无脚部弹窗
+.@{modal-prefix}-wrap.ivu-modal-noFoot {
+    .@{modal-prefix}{
+        &-footer{
+            display:none;
+        }
+    }
+}
+//弹窗居中
+.@{modal-prefix}-wrap.ivu-modal-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .@{modal-prefix}{
+        top: 0;
+    }
+}
+.@{modal-prefix}-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .@{modal-prefix}{
+        top: -80px;
+    }
+}
+//自定义弹窗头部
+.custom_modal {
+    .modal_top {
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #d3d3d3;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .modal_top span {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .modal_top span.iconfont {
+        color: #d3d3d3;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .modal_top span.iconfont:hover {
+        color: grey;
+    }
+
+    .modal_top span {
+        margin: 0px 20px 0px 15px;
+    }
+}
+/**Modal reset**/
+/**Page reset**/
+@page-prefix: ~"@{css-prefix}page";
+.@{page-prefix}.defaultPage{
+    .@{page-prefix}{
+        &-disabled{
+            .@{css-prefix-icon}:before{
+                color: #999999;
+            }
+            background-color: rgb(238, 238, 238);
+        }
+        &-prev,&-next{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        &-prev{
+            .@{css-prefix-icon}:before{
+                content:'上一页'
+            }
+        }
+        &-next{
+            .@{css-prefix-icon}:before{
+                content:'下一页'
+            }
+        }
+        &-item-jump{
+            &-prev,&-next{
+                .@{css-prefix-icon}{
+                    color: @primary-color;
+                }
+            }
+        }
+    }
+}
+/**Page reset**/
+
+
+/**iview.css reset**/
+.noList_box{
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    padding: 13px 0;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.pageIndex_box{
+    margin-top: 10px;
+    text-align: right;
+    padding: 25px 30px;
+    background-color: #fff;
+    border-radius: 6px;
+}

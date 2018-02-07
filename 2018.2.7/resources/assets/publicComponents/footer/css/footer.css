@@ -1,0 +1,86 @@
+#footer {
+    width: 100%;
+    background-color: #161616;
+    /*height: 380px;*/
+    height:166px;
+}
+
+#footer .footer-container {
+    margin: auto;
+    width: 1200px;
+    height: 100%;
+    background-color: #161616;
+}
+.footer-topBox-content{
+    width: 1200px;
+    height: 214px;
+   border-bottom:2px solid rgb( 212, 212, 212 );
+
+}
+
+.footer-topBox-content ul li{
+    width: 400px;
+    height: 214px;
+    float:left;
+}
+#website {
+    width:700px;
+}
+.footer-topBox-content ul .topContent-left{
+    padding-top: 20px;
+}
+.topContent-left .contact-me{
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.topContent-left p{
+    font-size: 18px;
+    color: rgb( 204, 204, 204 );
+    line-height: 36px;
+}
+.topContent-center{
+    padding-top: 66px;
+}
+.topContent-center p{
+    font-size: 18px;
+    color: rgb( 204, 204, 204 );
+    line-height: 36px;
+}
+
+.topContent-right{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.topContent-right p{
+    line-height: 54px;
+    color: rgb( 255, 255, 255 );
+}
+.topContent-right img{
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+
+.footer-bottomBox-content{
+    width: 1200px;
+    height: 166px;
+}
+.footer-bottomBox-content div{
+    width: 1200px;
+    height: 110px;
+    padding-top: 28px;
+}
+
+.footer-bottomBox-content div p{
+    font-size: 14px;
+    line-height: 1.143;
+    font-family: "SourceHanSansCN";
+    color: rgb( 153, 153, 153 );
+}
+.footer-bottomBox-content .company{
+    font-size: 12px;
+    font-family: "SourceHanSansCN";
+    color: rgb( 153, 153, 153 );
+}
+

@@ -1,0 +1,56 @@
+.deleteModal {
+    width:630px;
+    border-radius:6px;
+    padding-bottom:40px;
+    border:5px solid rgba(204,204,204,.3);
+    background:#fff;
+}
+.modal-top {
+    width:620px;
+    height:60px;
+    padding:0 20px;
+    line-height:60px;
+    border-bottom:1px solid #EEEEEE;
+}
+.modal-top span {
+    font-size:16px;
+    color:#151515;
+}
+.modal-top span:last-child {
+    float:right;
+    color:#CCCCCC;
+    cursor:pointer;
+}
+.modal-top span:last-child:hover {
+    color:grey;
+}
+#delete_content {
+    text-align:center;
+    margin:40px 0;
+}
+#delete_content p {
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.btn-content {
+    width:620px;
+    margin-top:40px;
+    text-align:center;
+}
+.btn-content button {
+    border-radius:5px;
+    font-size:14px;
+    width:120px;
+    height:40px;
+    margin:0 20px;
+    cursor:pointer;
+}
+.btn-content #confirm {
+    color:#fff;
+    background:#FFA113;
+}
+.btn-content #cancel {
+    color:#999999;
+    background:#EEEEEE;
+}

@@ -1,0 +1,226 @@
+
+/*客户关系列表*/
+.customerList-box{
+    .customer-item{
+        position: relative;
+        &-content{
+            width: 830px;
+            height: 53px;
+            border:1px solid rgb(243,240,243);
+            margin-top:8px;
+            position: relative;
+            //display: inline-block;
+            .statusIcon{
+                position: absolute;
+                left:11px;
+                color: #DADADA;
+                font-size: 33px;
+                top: 10px;
+                cursor:pointer
+            }
+            .close-arrow{
+            }
+            .open-arrow{
+                left: 7px;
+            }
+            .head-portrait{
+                width: 26px;
+                height: 26px;
+                max-width: 26px;
+                max-height: 26px;
+                display: block;
+                position:absolute;
+                left: 35px;
+                top: 13px;
+                background-color: #ccc;
+                border-radius: 50%;
+                overflow: hidden;
+                img{
+                    width: 26px;
+                    height: 26px;
+                    max-width: 26px;
+                    max-height: 26px;
+                    display: block;
+                    border-radius: 50%;
+                    background-color: #ccc;
+                }
+            }
+            &-block{
+                float:left;
+                width: 100px;
+                height: 51px;
+                text-align:center;
+                position: relative;
+                display:table;
+                float:left;
+                .middle-content{
+                    vertical-align:middle;
+                    display:table-cell;
+                    text-align:center;
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 1.5;
+                    color: rgb(39, 39, 39);
+                    &.chartsIcon{
+                        width: 47px;
+                        padding-right: 18px;
+                        padding-top: 7px;
+                        cursor:pointer
+                    }
+                    &>div{
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                }
+                .personHand-content,.teamHand-content{
+                    padding-left: 18px;
+                }
+                .personCount{
+
+                }
+                .personCount{
+
+                }
+                .right-border{
+                    display:block;
+                    position: absolute;
+                    right:-1px;
+                    top:12px;
+                    width: 1px;
+                    height: 29px;
+                    background-color: rgb(243,240,243);
+                }
+                &:last-child .right-border{
+                    display:none;
+                }
+                &:nth-child(1){
+                    width: 70px;
+                }
+                &:nth-child(2){
+                    width: 58px;
+                    padding-right: 5px;
+                }
+                &:nth-child(3){
+                    width: 86px;
+                }
+                &:nth-child(4){
+                    width: 112px;
+                }
+                &:nth-child(5){
+                    width: 120px;
+                }
+                &:nth-child(6){
+                    width: 120px;
+                }
+                &:nth-child(7){
+                    width: 80px;
+                }
+                &:nth-child(8){
+                    width: 180px;
+                }
+            }
+        }
+        &-child-box{
+            overflow: hidden;
+            transition: height 0.3s ease-in-out;
+        }
+        &-child{
+            margin-left: 21px;
+            padding-left: 11px;
+            border-left: 2px solid rgb(243,240,243);
+        }
+        .hideboderline{
+            display: block;
+            position: absolute;
+            width: 2px;
+            left: -13px;
+            background-color: rgb(243,240,243);
+            &-top{
+                height: 35px;
+                top: -8px;
+            }
+            &-bottom{
+                height: 26px;
+                top: 27px;
+            }
+            &-mid{
+               height: 2px;
+                width: 13px;
+                top: 27px;
+
+            }
+        }
+        &:last-child>.hideboderline{
+            &-bottom{
+                //display: none;
+                display: block;
+                top: 29px;
+                background-color: #fff;
+                height: 9999px;
+                z-index: 9;
+            }
+        }
+        .hideboerline{
+            display: none;
+        }
+        .loadingChildSpin{
+            width: 19px;
+            height: 23px;
+            top: 15px;
+            left: 6px;
+            position: absolute;
+        }
+    }
+    .customer-item .middle-content{
+        .content-title{
+            display: none;
+        }
+        br{
+            display: none;
+        }
+    }
+    &>.customer-item{
+        &>.customer-item-content .middle-content{
+            .content-title{
+                display: initial;
+            }
+            br{
+                display: initial;
+            }
+        }
+        &>.hideboderline{
+            display: none;
+        }
+    }
+}
+
+/*客户关系列表*/
+
+//展开加载动画
+.demo-spin-icon-load{
+    animation: ani-demo-spin 1s linear infinite;
+}
+@keyframes ani-demo-spin {
+    from { transform: rotate(0deg);}
+    50%  { transform: rotate(180deg);}
+    to   { transform: rotate(360deg);}
+}
+.demo-spin-col{
+    height: 100px;
+    position: relative;
+    border: 1px solid #eee;
+}
+.loadingMore_box{
+    font-size: 30px;
+    width: 100px;
+    color: #ccc;
+    text-align: left;
+    margin-left: 32px;
+    height: 45px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.loadingMore_box:hover{
+    color: #ffa114;
+}

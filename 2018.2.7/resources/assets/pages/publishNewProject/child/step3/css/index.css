@@ -1,0 +1,148 @@
+/*publish_trategy3 content样式*/
+ .content_top {
+     height:80px;
+     line-height:80px;
+    font-size:16px;
+    font-weight:bold;
+    color:#151515;
+    border-bottom:1px solid #D3D3D3;
+    margin:0 auto;
+}
+.content_box {
+    /*border:1px solid red;*/
+}
+.content_box ul li {
+    margin-top:30px;
+    /*border:1px solid blue;*/
+}
+.content_box ul li p {
+    margin-top:10px;
+    margin-left:110px;
+    color:red;
+}
+.deal_money_content,
+.lever_rate_content,
+.min_follow_money_content,
+.risk_control_content,
+.per_stop_lose_content,
+.per_deal_limit,
+.own_max_limit_content {
+    position:relative;
+    height: 49px;
+    line-height:49px;
+    /*border:1px solid yellow;*/
+}
+.deal_money_content small,
+.lever_rate_content small,
+.min_follow_money_content small,
+.risk_control_content small,
+.per_stop_lose_content small,
+.per_deal_limit small,
+.own_max_limit_content small{
+    font-size: 14px;
+    color:#999999;
+}
+.deal_money_content input,
+.min_follow_money_content input,
+.risk_control_content input,
+.per_stop_lose_content input,
+.per_deal_limit input,
+.own_max_limit_content input{
+    position:absolute;
+    left:110px;
+    width: 319px;
+    height: 49px;
+    border:1px solid #D4D4D4;
+    border-radius: 6px;
+    padding:0 20px;
+    font-size:14px;
+}
+.deal_money_content b,
+.lever_rate_content b,
+.min_follow_money_content b,
+.risk_control_content b,
+.per_stop_lose_content b,
+.per_deal_limit b,
+.own_max_limit_content b{
+    position:absolute;
+    left:450px;
+    font-size:14px;
+    color:#363636;
+}
+
+
+.lever_rate_content {
+    position:relative;
+}
+.lever_rate_content .lever_rate_value {
+    position:absolute;
+    top:0;
+    left:110px;
+    width: 319px;
+    height: 49px;
+    border:1px solid #D4D4D4;
+    border-radius: 6px;
+    padding:0 20px;
+    cursor:pointer;
+}
+.lever_rate_content .lever_rate_value b {
+    font-size: 14px;
+    color: rgb( 51, 51, 51 );
+    position:absolute;
+    left:20px;
+}
+.lever_rate_content .lever_rate_value i {
+    font-size: 14px;
+    color:#999999;
+    float:right;
+}
+
+#lever_rate_choiceList {
+    position:absolute;
+    top:49px;
+    left:110px;
+    z-index:1000;
+    width: 319px;
+    background:#fff;
+    border:1px solid #F3F3F3;
+    box-shadow:0 0 5px 2px #F3F3F3;
+}
+#lever_rate_choiceList ul li {
+    height:41px;
+    margin-top:0;
+    padding-left:20px;
+    cursor:pointer;
+}
+#lever_rate_choiceList ul li:hover {
+    background:#F3F3F3;
+}
+
+.btn_content {
+    margin-top:40px;
+    /*border:1px solid red;*/
+}
+#publish {
+    width: 140px;
+    height: 41px;
+    line-height:41px;
+    text-align:center;
+    font-size: 14px;
+    color: rgb( 255, 255, 255 );
+    border-radius: 6px;
+    background-color: rgb( 255, 161, 20 );
+    cursor:pointer;
+    float:left;
+    margin-right:40px;
+}
+#pre {
+    width: 140px;
+    height: 41px;
+    line-height:41px;
+    text-align:center;
+    font-size: 14px;
+    color: rgb( 153, 153, 153 );
+    border-radius: 6px;
+    background-color: rgb( 238, 238, 238 );
+    cursor:pointer;
+    float:left;
+}

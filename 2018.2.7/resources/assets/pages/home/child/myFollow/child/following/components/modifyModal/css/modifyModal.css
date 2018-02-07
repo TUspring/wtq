@@ -1,0 +1,181 @@
+.box {
+    /*border:1px solid blue;*/
+}
+.mpdify_box {
+    /*border:1px solid red;*/
+    display:flex;
+    justify-content:space-around;
+}
+
+
+.modifyModal {
+    width:630px;
+    border-radius:6px;
+    padding-bottom:40px;
+    margin-right:40px;
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.1);
+    background:#fff;
+    display:flex;
+}
+.modal-top {
+    width:620px;
+    height:60px;
+    padding:0 20px;
+    line-height:60px;
+    border-bottom:1px solid #EEEEEE;
+}
+.modal-top span {
+    font-size:16px;
+    color:#151515;
+}
+.modal-top span:last-child {
+    float:right;
+    color:#CCCCCC;
+    cursor:pointer;
+}
+
+.modal-content {
+    width:620px;
+}
+
+.modal-content .number-list {
+    width:620px;
+    margin:30px 0;
+    padding:0 20px;
+}
+.modal-content .number-list ul li {
+    list-style:none;
+    font-size:16px;
+    color:#666666;
+    float:left;
+}
+.number-list ul li:last-child {
+    float:right;
+}
+.number-list .account-number span {
+    color:#363636;
+}
+.number-list .net-account span {
+    color:#08AF4A;
+}
+
+
+.modal-content .radio-content {
+    width:620px;
+    padding:0 20px;
+}
+.modal-content .radio-content p {
+    font-size:16px;
+    color:#666666;
+    margin-bottom:20px;
+}
+#choiceList {
+    padding-left:20px;
+}
+#choiceList li {
+    height:30px;
+    line-height:30px;
+    list-style:none;
+    float:left;
+    padding-right:130px;
+}
+#choiceList span {
+    font-size:14px;
+    color:#161616;
+}
+#choiceList input {
+    width:50px;
+    height:19px;
+    text-align:center;
+    border:1px solid #D4D4D4;
+    border-radius:4px;
+    margin-bottom:5px;
+}
+#choiceList input:focus {
+    outline:none;
+}
+#choiceList i {
+    font-size:16px;
+    cursor:pointer;
+}
+
+.modal-content .warning-content {
+    width:580px;
+    margin:0 auto;
+    margin-top:40px;
+    padding:20px;
+    background:#F5F5F5;
+}
+.modal-content .warning-content p {
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+.modal-content .warning-content span {
+    font-size: 12px;
+    color:#999999;
+}
+.btn-content {
+    width:620px;
+    margin-top:40px;
+    text-align:center;
+}
+.btn-content button {
+    border-radius:5px;
+    font-size:14px;
+    width:120px;
+    height:40px;
+    margin:0 20px;
+    cursor:pointer;
+}
+.btn-content #modify {
+    color:#fff;
+    background:#FFA113;
+}
+.btn-content #cancel {
+    color:#999999;
+    background:#EEEEEE;
+}
+
+/*======智能详情======*/
+.intelligence_details-box {
+    /*border:1px solid red;*/
+}
+.intelligence_details-box .details-box {
+    position:relative;
+    width:430px;
+}
+.details-box  .triangle  {
+    position:absolute;
+    top:175px;
+    width:30px;
+    height:30px;
+    background:#fff;
+    transform:rotate(45deg);
+}
+.details-box  .details-content {
+    position:absolute;
+    top:30px;
+    left:15px;
+    width:400px;
+    height:320px;
+    background:#fff;
+    padding:20px;
+}
+.intelligence_details-box .details-box p,.proportion_details-box .details-box p {
+    line-height:20px;
+    font-size:14px;
+    color:#666666;
+}
+
+
+.proportion_details-box {
+    /*line-height:320px;*/
+}
+.proportion_details-box .details-box {
+    position:relative;
+    width:430px;
+    background:#999;
+}
+
+

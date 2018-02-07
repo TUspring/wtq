@@ -1,0 +1,110 @@
+.container {
+    position: relative;
+}
+.top_content {
+    border-radius: 6px;
+    margin-top:20px;
+    padding:0 30px;
+    font-size: 14px;
+    color: rgb( 51, 51, 51 );
+    background-color: rgb( 255, 255, 255 );
+}
+.user_content {
+    height: 101px;
+    line-height: 101px;
+    float:left;
+}
+.balance_content {
+    height: 101px;
+    line-height: 101px;
+    float:right;
+}
+.userName {
+    font-size:20px;
+    color:#FFA114;
+}
+.balance {
+    font-size:24px;
+    color:#09af48;
+}
+.balance:first-of-type {
+    margin-right:20px;
+}
+.warning_text {
+    width:150px;
+}
+.raiseCashBtn {
+    position: relative;
+    top:-4px;
+    display: inline-block;
+    width: 79px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    color: rgb( 255, 161, 20 );
+    margin-left:30px;
+    border:1px solid rgb( 255, 161, 20 );
+    cursor:pointer;
+}
+.raiseCashBtn:hover {
+    color:#fff;
+    background-color:rgb( 255, 161, 20 );
+}
+/*列表*/
+.list_box {
+    width:100%;
+    border-radius:6px;
+    background:#fff;
+    margin-top:20px;
+}
+.list_title {
+    font-size: 14px;
+    color: rgb( 51, 51, 51 );
+    padding:20px 30px;
+    border-bottom:1px solid rgb( 238, 238, 238 );
+}
+.list_content {
+    padding:0 30px;
+}
+.list_header {
+    display: flex;
+    width:100%;
+    height: 41px;
+    line-height: 41px;
+    margin-top:30px;
+    border-radius: 6px;
+    background-color: rgb( 245, 245, 245 );
+}
+
+.list_header li {
+    flex: 1;
+    font-size: 14px;
+    color: rgb( 102, 102, 102 );
+    text-align: center;
+    float:left;
+}
+.list_detail {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.list_detail:last-of-type {
+    border-bottom: none
+}
+.list_detail li {
+    flex: 1;
+    height:79px;
+    line-height:79px;
+    text-align: center;
+    float:left;
+}
+.list_detail .remarkText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.remark {
+    line-height:20px;
+}

@@ -1,0 +1,166 @@
+
+#login {
+    width: 630px;
+    padding-bottom:40px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.1);
+}
+
+.register_login .login_content #tab {
+    width: 320px;
+    height: 88px;
+    margin: auto;
+}
+
+.register_login .login_content #tab ul {
+    width: 320px;
+    height: 88px;
+    padding: 25px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.register_login .login_content #tab ul li {
+    text-align: center;
+    width: 30%;
+    float: left;
+}
+
+.register_login .login_content #tab ul li span {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 16px;
+    color: #999;
+    cursor:pointer
+}
+.register_login .login_content #tab ul li span:not(.current):hover{
+    color:grey
+}
+.login_content #tab ul li span.current {
+    color: #ffa71a;
+    border-bottom: 1px solid #ffa71a;
+}
+#tab_content {
+    width: 320px;
+    margin: auto;
+}
+#tab_content .dom .input_row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#tab_content .dom .input_row:nth-child(1){
+    padding-top: 0;
+}
+#tab_content .tab_account input {
+    width: 318px;
+    height: 48px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    margin: auto;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+#tab_content p {
+    width: 320px;
+    height: 13px;
+    line-height: 13px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size:12px;
+    color:#333333;
+}
+
+#tab_content .pulg_in {
+    width: 320px;
+    height: 120px;
+    background-color: pink;
+}
+#tab_content .hidden{
+    display: none;
+}
+/*#tab_content .tab_bottom button {*/
+    /*width: 320px;*/
+    /*height: 50px;*/
+    /*border: none;*/
+    /*font-size: 14px;*/
+    /*background-color: #eeeeee;*/
+    /*border-radius: 5px;*/
+    /*color: #666;*/
+    /*cursor: pointer;*/
+/*}*/
+
+.tab_bottom .tab_bottom_contains {
+    width: 320px;
+    height: 18px;
+    margin-top: 20px;
+}
+
+.tab_bottom .tab_bottom_contains ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab_bottom .tab_bottom_contains ul li {
+    float: left;
+}
+
+.tab_bottom .tab_bottom_contains ul li .p1 {
+    color: #666
+}
+
+.tab_bottom .tab_bottom_contains ul li .p2 {
+    color: #000;
+    cursor:pointer;
+}
+.tab_bottom .tab_bottom_contains ul li .p3 {
+    color: #ffa71a;
+    font-weight: bold;
+    cursor:pointer;
+}
+.tab_bottom .tab_bottom_contains ul li .p2:hover,.tab_bottom .tab_bottom_contains ul li .p3:hover{
+    text-decoration: underline;
+}
+#tab_content .tab_identifying {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 48px;
+}
+
+#tab_content .tab_identifying input {
+    width: 200px;
+    height: 48px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#tab_content .tab_identifying button {
+    width: 98px;
+    height: 48px;
+    background-color: #fff;
+    color: #ffa71a;
+    border-radius: 5px;
+    border: 1px solid #ffa71a;
+    cursor: pointer;
+
+}
+#tab_content .tab_identifying button.disabled {
+    color: #999;
+    border: 1px solid #eeeeee;
+    cursor: not-allowed;
+}
+#tab_content .tab_btn {
+    width: 320px;
+    height: 50px;
+    background-color: #eeeeee;
+    color: #999;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}

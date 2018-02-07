@@ -1,0 +1,119 @@
+.againRelation_modal {
+    width: 630px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.1);
+}
+
+.againRelation_content {
+    width: 630px;
+    padding: 30px 20px 40px 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.relation_prompt {
+    text-align: left;
+    width: 590px;
+    height: 104px;
+    background-color: #f5f5f5;
+    padding: 18px 40px;
+    margin-bottom: 30px;
+}
+
+.relation_prompt p {
+    font-size: 12px;
+    color: #333333;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.relation_prompt span {
+    font-size: 12px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.email_prompt {
+    text-align: left;
+    width: 590px;
+    height: 104px;
+    background-color: #f5f5f5;
+    padding: 18px 40px;
+    margin-top: 30px;
+}
+
+.email_prompt p {
+    font-size: 12px;
+    color: #333333;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.email_prompt span {
+    line-height: 22px;
+    font-size: 12px;
+    color: #999999;
+}
+
+
+.content-box{
+    width: 230px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.email_prompt .changeEmails {
+    color: #FFA114;
+    cursor: pointer;
+}
+
+.againRelation_content .relation_btn {
+    width: 320px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: #FFA114;
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.againRelation_content .againRelation_details{
+    width: 590px;
+}
+
+
+.againRelation_details .platform_box{
+    width: 330px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 20px auto;
+  text-align: right;
+}
+.againRelation_details div span{
+    color: #999999;
+    font-size: 14px;
+}
+.againRelation_details div input{
+    width: 230px;
+    height: 40px;
+    background-color: #f5f5f5;
+    border:1px solid #CCCCCC;
+    border-radius: 4px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.Modal_scroll {
+    max-height: 650px;
+    overflow-y: scroll;
+}
+.Modal_scroll::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 6px;
+    background-color: #F5F5F5;
+}

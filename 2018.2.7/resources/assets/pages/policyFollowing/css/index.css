@@ -1,0 +1,345 @@
+#trading_strategy_follow {
+    width: 1200px;
+    margin: 30px auto;
+}
+
+/*顶部信息*/
+.follow_container_top {
+    width: 1200px;
+    border-radius: 6px;
+    padding: 20px 0px 40px;
+    background-color: #ffffff;
+}
+
+.follow_container_top .top_content_left {
+    width: 100px;
+    margin-left: 100px;
+    text-align: center;
+    float: left;
+}
+
+.follow_container_top .top_content_left .avatar {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: #CCCCCC;
+}
+
+.follow_container_top .top_content_left p {
+    font-size: 16px;
+    color: #333333;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.follow_container_top .top_content_left .follow_btn {
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    color: #666666;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.follow_container_top .top_content_left .follow_btn span {
+    font-size: 18px;
+    color: #666;
+    line-height: 28px;
+    display: inline-block;
+}
+.follow_container_top .top_content_left .follow_btn .typeface{
+    font-size: 14px;
+    line-height: 30px;
+    display: inline-block;
+}
+.top_content_center {
+    width: 660px;
+    margin-left: 40px;
+    float: left;
+}
+
+.top_content_center p {
+    width: 660px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.top_content_center div {
+    width: 660px;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.top_content_center div ul li {
+    width: 160px;
+    height: 50px;
+    float: left;
+    border-right: 1px solid #d4d4d4;
+}
+.top_content_center div ul li:nth-child(1){
+    border-left: 1px solid #d4d4d4;
+}
+.top_content_center div ul li:nth-last-child(1) {
+    border: none;
+}
+
+.top_content_center div ul li p {
+    width: 160px;
+    height: 24px;
+    color: #333333;
+    text-align: center;
+}
+
+.top_content_center div ul li .prompt_text {
+    color: #999999;
+    font-size: 14px;
+}
+
+.top_content_right {
+    float: right;
+    margin-right: 60px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.top_content_right button {
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FFA114;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.top_content_center div ul li .monthly_average_income {
+    color: #09af48;
+}
+
+.top_content_right .already_follow{
+    background-color: rgb( 245, 245, 245 );
+    border: 1px solid #dddddd;
+    color: #666666;
+}
+
+.already_follow_font{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 16px;
+}
+.already_follow_icon{
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 16px;
+    font-size: 18px;
+    color: #999999;
+}
+.drop_down_btn{
+    top: 50px;
+    left: 0px;
+    position: absolute;
+    width: 160px;
+}
+
+.drop_down_btn button{
+    width: 160px;
+    height: 35px;
+    margin-top: 2px;
+    border-radius: 5px;
+    background-color: rgb( 245, 245, 245 );
+    color: #666666;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drop_down_btn button span{
+    line-height: 35px;
+    height: 35px;
+}
+
+
+/*切换tab*/
+.follow_checkout {
+    width: 1200px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.follow_checkout ul {
+    margin-left: 68px;
+}
+
+.follow_checkout ul a{
+    display: inline-block;
+    margin-right: 76px;
+}
+
+.follow_checkout ul li {
+    float: left;
+    width: 70px;
+    height: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333333;
+    margin-right: 76px;
+    cursor: pointer;
+}
+
+.follow_checkout ul li.current {
+    color: #FFA114;
+    border-bottom: 1px solid #FFA114;
+}
+
+.follow_checkout ul li:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+
+
+/*悬浮块*/
+.pullDown_switch {
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+    position: fixed;
+    width: 1200px;
+    height: 90px;
+    /*box-shadow: 0px 3px 3px 3px rgba(238, 238, 238,.9);*/
+    box-shadow: 0px 4px 4px 4px rgba( 212, 212, 212,.7 );
+    border-color: rgb( 238, 238, 238);
+    z-index: 153;
+    background-color: #fff;
+}
+
+.pullDown_switch ul li {
+    height: 90px;
+    float: left;
+}
+
+.pullDown_switch_left {
+    width: 140px;
+    height: 90px;
+    margin-left: 100px;
+}
+
+.pullDown_switch_left .left_box {
+    width: 60px;
+    height: 90px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+.pullDown_switch_left .left_box img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.pullDown_switch_left .right_box {
+    width: 60px;
+    height: 90px;
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+
+.pullDown_switch_left .right_box p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    height: 32px;
+    line-height: 16px;
+}
+
+.pullDown_switch_left .right_box button {
+    /*margin-top: 10px;*/
+    width: 50px;
+    height: 20px;
+    border: 1px solid #CCCCCC;
+    background-color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.pullDown_switch_center {
+    width: 680px;
+    height: 90px;
+}
+
+.pullDown_switch_center_container {
+    width: 680px;
+    height: 90px;
+}
+
+.pullDown_switch_center_container .pullDown_switch_center_ul {
+    width: 680px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.pullDown_switch_center_ul p span {
+    font-size: 16px;
+    color: #333333;
+}
+.pullDown_switch_center_ul .monthly_average_income span{
+    color: #09af48;
+}
+.pullDown_switch_center_ul .prompt_text {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.pullDown_switch_center_container ul li {
+    width: 170px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #CCCCCC;
+}
+
+.pullDown_switch_center_container ul li:nth-last-child(1) {
+    border-right: none;
+}
+
+.pullDown_switch_right {
+    width: 120px;
+    height: 90px;
+    margin-left: 100px;
+}
+
+.pullDown_switch_right button {
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #ffa114;
+    color: #fffdef;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.pullDown_switch_right .already_follow{
+    background-color: rgb( 245, 245, 245 );
+    border: 1px solid #dddddd;
+    color: #666666;
+}
+

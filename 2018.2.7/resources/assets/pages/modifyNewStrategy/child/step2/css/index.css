@@ -1,0 +1,88 @@
+/*new-strategy2 content样式*/
+.content_top {
+    height:80px;
+    line-height:80px;
+    font-size:16px;
+    font-weight:bold;
+    color:#151515;
+    border-bottom:1px solid #D3D3D3;
+    margin:0 auto;
+    padding:0 10px;
+}
+.content_box {
+    margin-top:20px;
+    /*border:1px solid red;*/
+}
+.content_box ul li {
+    /*border:1px solid blue;*/
+    margin-top:30px;
+}
+.content_box ul li p {
+    margin-top:10px;
+    margin-left:110px;
+    color:red;
+}
+.trade_platform_content,
+.MT4_number_content,
+.investor_password_content,
+.server_name_content {
+    position:relative;
+    height: 49px;
+    line-height:49px;
+    /*border:1px solid yellow;*/
+}
+.trade_platform_content small,
+.MT4_number_content small,
+.investor_password_content small,
+.server_name_content small {
+    font-size: 14px;
+    color:#999999;
+}
+.trade_platform_content input,
+.MT4_number_content input,
+.investor_password_content input,
+.server_name_content input {
+    position:absolute;
+    left:110px;
+    width: 319px;
+    height: 49px;
+    border:1px solid #D4D4D4;
+    border-radius: 6px;
+    padding:0 20px;
+    font-size:14px;
+}
+.investor_password_content b {
+    position:absolute;
+    left:450px;
+    font-size:14px;
+    color:#363636;
+}
+.btn_content {
+    margin-top:40px;
+    /*border:1px solid red;*/
+}
+#next {
+    width: 140px;
+    height: 41px;
+    line-height:41px;
+    text-align:center;
+    font-size: 14px;
+    color: rgb( 255, 255, 255 );
+    border-radius: 6px;
+    background-color: rgb( 255, 161, 20 );
+    cursor:pointer;
+    float:left;
+    margin-right:40px;
+}
+#pre {
+    width: 140px;
+    height: 41px;
+    line-height:41px;
+    text-align:center;
+    font-size: 14px;
+    color: rgb( 153, 153, 153 );
+    border-radius: 6px;
+    background-color: rgb( 238, 238, 238 );
+    cursor:pointer;
+    float:left;
+}

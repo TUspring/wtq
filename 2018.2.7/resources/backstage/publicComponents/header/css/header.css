@@ -1,0 +1,156 @@
+
+#header{
+    width: 100%;
+    min-width: 1300px;
+    max-width: 1920px;
+    padding-right: 20px;
+    background-color: #fff;
+}
+#header .router-link-active{
+    border-bottom: 0;
+}
+#header .nav_content{
+    width: 100%;
+    min-width: 1100px;
+    max-width: 1920px;
+    height: 80px;
+    margin:0 auto;
+    background-color: #fff;
+}
+#header .nav_content .nav_left{
+    width: 700px;
+    height: 80px;
+    float: left;
+}
+#header .nav_content .nav_left img{
+    display: inline;
+    width: 130px;
+    height: 80px;
+}
+
+#header .nav_content .nav_left ul{
+    /*margin-left:50px;*/
+    display: inline-block;
+}
+#header .nav_content .nav_left ul li{
+    width: 140px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    float: left;
+    list-style: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #161616;
+}
+#header .nav_content .nav_left ul .nav_link.cur{
+    box-sizing: border-box;
+    border-top: 2px solid #ffa114;
+    color: #ffa114;
+    box-shadow: 0px 3px 3px 0px #ccc;
+}
+#header .nav_content .nav_left ul .nav_link:hover{
+    box-sizing: border-box;
+    border-top: 2px solid #ffa114;
+    color: #ffa114;
+    box-shadow: 0px 3px 3px 0px #ccc;
+}
+#header .nav_content .nav_left ul .nav_title{
+    font-size: 18px;
+    margin-left: 10px;
+}
+#header .nav_content .nav_right{
+    height: 80px;
+    float: right;
+    line-height: 80px;
+}
+
+#header .nav_content .nav_right ul{
+    margin-left: 60px;
+    float: right;
+    display: inline-block;
+}
+
+#header .nav_content .nav_right ul li{
+    list-style: none;
+}
+#header .nav_right_ul>li{
+    display: table;
+}
+#header .nav_right_ul>li .nav_right_inline{
+    display: table-cell;
+    vertical-align: middle;
+}
+#header .nav_right_ul>li .iconfont{
+    display: initial;
+    line-height: initial;
+}
+#header .nav_content .nav_right .help{
+    color: #999999;
+    width: 74px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#header .nav_right .header_right_btn{
+    width: 50px;
+    height: 28px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    background-color:#ffa114;
+    border:none;
+    margin-left: 36px;
+    cursor: pointer;
+}
+#header .nav_right .header_right_btn:hover{
+     background-color:#ff9900;
+}
+#header .nav_right .header_right_textbtn{
+    color:#ffa114;
+    font-size: 14px;
+    color: #ffa114;
+    cursor: pointer;
+}
+#header .nav_right .header_right_textbtn:hover{
+    color:#ff9900;
+}
+/*style-1*/
+#nav_s1 span{
+    font-size: 14px;
+    color: #ffa114;
+    cursor: pointer;
+}
+
+
+/*style-2*/
+#nav_s2 .tips_icon{
+    color: #d4d4d4;
+    font-size: 30px;
+    cursor: pointer;
+    height: 28px;
+    position: relative;
+}
+#nav_s2 .prompt_badge{
+    position: absolute;
+    top: -10px;
+    left: 16px;
+}
+
+#nav_s2 .user_icon{
+    width: 28px;
+    color: #ffa114;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+
+/*style-3*/
+#nav_s3 span{
+    font-size: 14px;
+    color: #999999;
+    cursor: pointer;
+}
+
+
